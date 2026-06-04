@@ -1,0 +1,17 @@
+# Temporary files
+*.tmp
+*.bak
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Auto-generated stats dashboard (regenerated locally on each update)
+stats.html

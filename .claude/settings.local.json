@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(*)",
+      "mcp__twitter__*",
+      "WebFetch(*)",
+      "WebSearch"
+    ]
+  }
+}

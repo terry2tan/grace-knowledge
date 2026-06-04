@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Building for Trillions of Agents 中文翻译</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+      line-height: 1.8;
+      color: #1f2937;
+      background: #f8fafc;
+      margin: 0;
+      padding: 32px 20px 60px;
+    }
+    .container {
+      max-width: 920px;
+      margin: 0 auto;
+      background: #ffffff;
+      border-radius: 16px;
+      box-shadow: 0 10px 30px rgba(15, 23, 42, 0.08);
+      padding: 40px 44px;
+    }
+    h1, h2, h3 {
+      color: #0f172a;
+      line-height: 1.35;
+    }
+    h1 { font-size: 2rem; margin-bottom: 8px; }
+    h2 { font-size: 1.35rem; margin-top: 36px; margin-bottom: 14px; }
+    .meta {
+      color: #64748b;
+      font-size: 0.95rem;
+      margin-bottom: 28px;
+    }
+    .summary {
+      background: #f1f5f9;
+      border-left: 4px solid #3b82f6;
+      padding: 18px 20px;
+      border-radius: 10px;
+      margin-bottom: 28px;
+    }
+    p { margin: 14px 0; }
+    blockquote {
+      margin: 18px 0;
+      padding: 12px 18px;
+      background: #f8fafc;
+      border-left: 4px solid #94a3b8;
+      color: #334155;
+    }
+    a { color: #2563eb; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    hr {
+      border: none;
+      border-top: 1px solid #e2e8f0;
+      margin: 32px 0;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Building for Trillions of Agents</h1>
+    <div class="meta">
+      Aaron Levie · 2026-03-09 · 原文链接：
+      <a href="https://x.com/levie/status/2030714592238956960">https://x.com/levie/status/2030714592238956960</a>
+    </div>
+
+    <div class="summary">
+      <strong>导读：</strong>这篇文章的核心判断是，未来企业内运行的 agent 数量将远超员工数量，软件的主要用户也会逐渐从“人”转向“agent”。因此，软件设计必须从 user-first 走向 agent-first，也就是不仅要让人好用，更要让 agent 能稳定调用、集成、扩展和自治执行。
+    </div>
+
+    <h2>中文翻译</h2>
+
+    <p><strong>为数以万亿计的 Agent 构建软件</strong></p>
+
+    <p>过去几个月里，agent 领域开始出现一件大事。接近去年年底的时候，我们开始到达一个临界点：coding agent 已经能够完成更长时间运行的任务，而且在整个开发过程中不再需要那么多人工盯着和手把手干预。</p>
+
+    <p>这些 agent 已经不再是只配了基础工具的聊天机器人。相反，它们通常拥有自己的沙箱计算环境，能够为遇到的任何问题编写和运行代码，能够直接与 API 和 CLI 交互，拥有自己的文件系统和长期记忆，等等。这些核心原语、agent harness 最佳实践的整体进步，以及模型在 agent 工具使用和软件开发上的惊人提升，让我们瞥见了一种未来：agent 可以处理几乎任何被交给它们的任务。</p>
+
+    <p>虽然这种架构最初主要由 Claude Code、Devin、Codex、Factory、Cursor、Replit 这类 coding agent 定义出来，但最近我们已经跨越鸿沟，进入了个人体验和知识工作几乎所有领域。Claude Cowork、Perplexity Computer、Manus，当然还有 OpenClaw，都代表了这种趋势，其中 OpenClaw 更是把这件事推进到了更远的未来，它让一个 agent 能够在自己的持久环境中 24/7 持续运行。</p>
+
+    <p>随着能力快速提升，agent 将被引入几乎所有工作领域。它们会被用于审查每一份合同，处理大多数客服场景的一线问题，审计公司的财务，筛查所有医学研究以支持药物发现，生成几乎所有将来要写的代码，制作大多数销售和咨询演示材料，在网页上替消费者完成交易，以及总体上参与社会中几乎所有具有经济价值的任务。</p>
+
+    <p>而且，这不只是执行我们今天已经在做的任务。我们会用 agent 去完成比以前多得多的工作，去运行过去因成本过高而无法承担的模拟，针对每一个想法做出多种原型方案，因为启动很便宜、停止也很容易，所以我们会推进远比过去更多的项目；我们会检查每一份数据，而不只是抽样信息。</p>
+
+    <p>把这些加总起来看，我们可以预期，组织中的几乎每一位员工，背后都会有许多 agent 为其工作。要想象一家企业里有比人多 100 倍、1000 倍的 agent，并不困难。随着数以万亿计的 agent 到处运行，agent 将会成为未来所有软件的主要用户。</p>
+
+    <p>鉴于目前大多数软件都是为人设计和构建的，这意味着未来软件的形态将发生巨大变化。那么接下来会怎样？</p>
+
+    <h2>做出 agent 想用的软件</h2>
+
+    <p>Paul Graham 曾经用最简单的话概括如何构建软件：做出人们想要的东西。</p>
+
+    <p>这一建议催生了 21 世纪一些最成功的软件公司，也推动了一波软件建设浪潮，让工具变得易用、容易采用、解决明确问题、不堆砌术语、定价清晰直白，等等。</p>
+
+    <p>而现在，前进的方向变成了：做出 agent 想要的软件。虽然目前最重度使用 agent 的人通常还是开发者，或者至少是高度技术化的用户，他们往往对工具有自己的偏好，但当 agent 开始为知识工作者执行各种任务时，这种个人偏好会逐渐退居次要地位。除非企业已经有明确标准，否则 agent 将在特定工作流中成为真正决定采用什么工具的“驾驶员”。</p>
+
+    <p>这意味着，未来由 agent 决定的，可能包括：它们注册哪些工具、写什么代码、使用哪些库、调用哪些 skills，等等。那些更容易被 agent 采用、并且更能解决 agent 及其用户问题的平台，会比做不到这一点的产品发展得快得多。agent 不会去参加你的 webinar，也不会看到你的广告；它们只会用最适合完成任务的工具，而你希望那个工具恰好是你的。</p>
+
+    <p>这一建议最重要的推论就是：你构建的一切都必须变成 API-first。假如一个功能没有 API，那它几乎就等于不存在。假如它不能通过 CLI 或 MCP server 暴露出来，那你就处于劣势。假如你的 API 混乱、agent 面前摆着互相冲突的实现路径，那你就是在削弱自己对 agent 的可用性。在 Box，我们正在专注于为 agent 构建文件系统，因此我们会反复检查 API 的每个细节，看看在 agent 世界里哪里会失效，因为这里的可用性要求，其实和过去只在 UX 设计中投入的精细程度是一样高的。</p>
+
+    <p>就像过去为用户设计软件时，你要站在用户角度思考一样；现在思考 agent 会遇到什么问题，也同样如此。比如，Y Combinator 的 Jared Friedman 就提醒大家：“即使是最好的开发者工具，很多仍然不允许你通过 API 注册账号。这在 Claude Code 时代是个大问题，因为这意味着 Claude 没法自己完成注册。把所有账户管理功能都放进 API，应当已经成为标配。” 如果一个 agent 不能轻松注册你的服务并开始使用它，那对 agent 来说，你基本已经死了。</p>
+
+    <p>在一个 agent 成为软件最大用户的未来里，这还会带来巨大的商业模式影响。在某些情况下，由用户 seat 发起的 agent 也许还能勉强适配传统按 seat 收费的软件模式，但仍然有大量 agent 使用场景并不能整齐地绑定到现有用户，或者因为 agent 的工作量已经与人的工作量完全不同。比如，一个 agent 可能只通过几句话或几行文本指令，就在软件中完成数小时的人类等价劳动，然后只把最终结果呈现给终端用户。</p>
+
+    <p>这最终意味着，软件行业的部分商业模式必须进化。任何想在 agent 化未来中生存下去的工具，都需要在系统中内建某种 consumption 或 volume-based 的商业模式，甚至还要支持 agent 自主为这些服务付款。</p>
+
+    <h2>Agent 的下一代基础设施与工具</h2>
+
+    <blockquote>
+      “把电脑交给人类使用是个好主意。把电脑交给电脑使用，从而让它们在电脑上为我们的工作产出和我们一样的结果，则是个更好的主意。”<br />
+      —— Aravind Srinivas，Perplexity
+    </blockquote>
+
+    <p>随着 agent 拥有了自己的计算机，能够编写并执行自己的代码，能够调用常用的 skills 处理重复动作，也能接入外部工具与服务，这将催生一整套全新的、专门给 agent 使用的技术。你只需要想象一个用户在电脑上做什么，agent 就会需要一套为它们量身定制的类似能力。</p>
+
+    <p>其中一些核心服务自然会来自现有玩家，因为 agent 正在访问原有数据，或者因为在同一系统中，人类用户与 agent 用户之间的协作和连接本身就很有价值。与此同时，也会诞生全新的品类，因为这个问题空间与人类用户过去需要的、或者能做到的事情实在太不一样了，因此值得从头开始设计专门的服务。</p>
+
+    <p>例如，很明显，agent 将需要属于自己的运行基础设施，而且规模会远超以往。下一代 hyperscaler，或者现有某家 hyperscaler 的下一阶段增长，都会建立在这样一个判断之上：未来的数据中心不再只是为“应用”服务，而是为“我们的 agent”服务。E2B、Daytona、Modal、Cloudflare 都正在朝这个方向推进，而这些沙箱环境的规模，将与我们见过的任何计算平台相匹敌。</p>
+
+    <p>agent 还需要访问企业中的核心文件，同时还要能够管理自己的数据，以支持记忆和长时运行工作，这正是 Box 正在构建的方向。同样，企业中的主要系统也必须变成 API-first，才能让 agent 使用组织中的关键服务与数据，比如 HRIS、CRM、工作流系统、数据湖等。那些能让 agent 以最无缝方式从任意位置操作这些数据的产品，将在赢得未来工作负载方面占据最佳位置。</p>
+
+    <p>agent 很可能还需要自己的身份，并具备与其他实体沟通的能力。例如，Agentmail 正在为 agent 提供邮箱，让它们拥有自己的持久邮件地址并开展工作。Parallel、Exa 等公司则在为一个“agent 是网络最大用户”的未来重构搜索，因为到那时，agent 将成为在网上爬取信息的主要主体。许多类型的 agent 还需要管理自己的预算，例如通过 Stripe 或 Coinbase 钱包来控制支出；而且，我们或许终于会迎来微支付的真实应用场景，让 agent 直接调用付费工具或付费信息源。</p>
+
+    <p>安全、合规和治理将成为这些 agent 的重大难题。在一个 agent 正在工作流中访问和处理敏感信息，或者执行受监管流程（如制药、银行）的世界里，公司必须能够治理并保留这些 agent 所做的一切工作记录。长时运行的 agent 很可能需要属于自己的身份，以便它们能够认证并接入各类服务，同时对它们可以执行的动作类型以及可访问的数据范围施加严格控制。我们将需要全新的软件和平台来解决这些挑战，就像过去我们围绕人类和应用程序逐渐建立起整套体系一样。</p>
+
+    <p>总的来说，我们显然正在进入一个全新的软件时代，在这个时代里，我们需要专门为 agent 的规模化使用来设计和构建工具。在一个数以万亿计 agent 共同工作的世界里，这将开启一种全新的软件工作方式。</p>
+
+    <hr />
+
+    <p><strong>生成说明：</strong>基于 <code>knowledge/2026-03-09-building-for-trillions-of-agents.md</code> 中原文内容翻译整理。</p>
+  </div>
+</body>
+</html>

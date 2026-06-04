@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>元元提示法：让 AI 智能体真正运转的秘密</title>
+  <style>
+    :root { color-scheme: light dark; }
+    body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans SC", "PingFang SC", "Microsoft YaHei", sans-serif; background: #f6f7f9; color: #1f2937; line-height: 1.78; }
+    .page { max-width: 860px; margin: 0 auto; padding: 48px 22px 80px; }
+    article { background: #fff; border: 1px solid #e5e7eb; border-radius: 18px; padding: 42px 48px; box-shadow: 0 8px 30px rgba(15,23,42,.06); }
+    h1 { font-size: 2.1rem; line-height: 1.25; margin: 0 0 18px; letter-spacing: -0.02em; }
+    h2 { margin-top: 2.3em; padding-top: .6em; border-top: 1px solid #eef0f3; font-size: 1.35rem; }
+    p { margin: 1em 0; }
+    blockquote { margin: 1.4em 0 2em; padding: .8em 1.2em; border-left: 4px solid #6366f1; background: #f5f7ff; color: #374151; border-radius: 8px; }
+    ul { padding-left: 1.4em; }
+    li { margin: .55em 0; }
+    a { color: #4f46e5; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .meta { color: #6b7280; font-size: .95rem; margin-bottom: 28px; }
+    .note { margin-top: 42px; padding-top: 18px; border-top: 1px solid #eef0f3; color: #6b7280; font-size: .92rem; }
+    @media (max-width: 720px) { .page { padding: 18px 10px 40px; } article { padding: 26px 20px; border-radius: 12px; } h1 { font-size: 1.65rem; } }
+    @media (prefers-color-scheme: dark) { body { background: #0b1020; color: #e5e7eb; } article { background: #111827; border-color: #273244; } blockquote { background: #172033; color: #d1d5db; } h2, .note { border-color: #273244; } .meta, .note { color: #9ca3af; } a { color: #a5b4fc; } }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <article>
+<h1>元元提示法：让 AI 智能体真正运转的秘密</h1>
+<blockquote>
+<p>原文：Garry Tan — Meta-Meta-Prompting: The Secret to Making AI Agents Work</p>
+<p>原文链接：<a href="https://x.com/i/article/2052898104039657472" target="_blank" rel="noopener">https://x.com/i/article/2052898104039657472</a></p>
+</blockquote>
+<p>人们一直问我，为什么我每天晚上都要写代码写到凌晨 2 点。我有一份工作，而且是一份很重的工作：我是 Y Combinator 的 CEO。我们每年帮助成千上万的建设者实现他们的梦想，做出真正有收入、真正高速增长的创业公司。</p>
+<p>在过去 5 个月里，AI 让我重新变成了一个建设者。去年年底，工具终于好到足以让我重新开始动手做东西。不是玩具项目，而是真正会复利增长的系统。我想用具体例子告诉你：当你不再把个人 AI 当成聊天窗口，而是把它当成操作系统时，它到底会是什么样子。我把它开源，也写成这样的文章，是因为我希望你能和我一起加速。</p>
+<p>这是一组系列文章的一部分：<strong>Fat Skills, Fat Code, Thin Harness</strong> 介绍了核心架构；<strong>Resolvers</strong> 讲的是智能的路由表；<strong>The LOC Controversy</strong> 讲的是每个技术人如何把自己放大 100 倍到 1000 倍；<strong>Naked models are stupider</strong> 论证了模型只是引擎，不是汽车；而 <strong>skillify manifesto</strong> 则解释了为什么 LangChain 融了 1.6 亿美元，却只是给了你深蹲架和哑铃，没有给你训练计划——然后我给了你真正需要的训练计划。</p>
+<h2>读回我的那本书</h2>
+<p>上个月我在读 Pema Chödrön 的《当一切崩塌时》。这本书 162 页，22 章，讲佛教如何看待痛苦、无根感和放手。一个朋友在我经历困难时期时推荐给我。</p>
+<p>我让我的 AI 做了一次 book mirror（书镜）。</p>
+<p>具体来说，这意味着：系统提取了这本书全部 22 章，然后针对每一章运行一个子智能体，同时做两件事：总结作者的观点，并把每个观点映射到我的真实生活中。不是那种泛泛而谈的“这对领导者有启发”的废话，而是具体映射。它知道我的家庭背景——移民父母，父亲来自香港和新加坡，母亲来自缅甸。它知道我的职业语境——管理 YC、构建开源工具、指导成千上万的创始人。它知道我最近读了什么、凌晨 2 点在想什么、我和治疗师正在处理什么。</p>
+<p>输出是一页 30,000 字的 brain page。每一章都渲染成两列：Pema 说了什么，以及它如何映射到我正在经历的事情。关于“无根感”的一章，连接到我前一周和某位创始人的一次具体谈话；关于“恐惧”的一章，映射到我的治疗师识别出的心理模式；关于“放手”的一章，引用了我某次深夜写下的内容，里面谈到我今年重新找回的创作自由。</p>
+<p>整个过程花了大约 40 分钟。一个每小时收费 300 美元的治疗师，即便读完这本书并尝试把它应用到我的生活里，也不可能在 40 小时内完成这件事，因为他们没有完整加载并可交叉引用的图谱：我的职业语境、阅读历史、会议记录和创始人关系。</p>
+<p>我现在已经用这个方法读了 20 多本书，包括 Dion Lim 的《Amplified》、Bertrand Russell 自传、《人生设计》、《天才儿童的戏剧》、《有限与无限游戏》、《Gift from the Sea》、《悉达多》、《荒原狼》、《科学与工程的艺术》、《The Dream Machine》、Alan Watts 的《The Book on the Taboo Against Knowing Who You Are》、费曼的《你管别人怎么想》、《当一切崩塌时》、Ken Wilber 的《万物简史》等等。每一本都会因为这个 brain 变得越来越丰富。第二次书镜知道第一次发生了什么；第二十次知道前十九次的一切。</p>
+<h2>Book Mirror 如何通过迭代变好</h2>
+<p>我第一次做 book mirror 时非常糟糕。第 1 版里有三个关于我家庭的事实错误。它说我的父母离婚了，但他们没有；它说我在香港长大，但我出生在加拿大。这些都是基础事实，如果我把它分享出去，会严重损害信任。</p>
+<p>所以我加了一个强制事实核查步骤。现在每一次 mirror 在交付前，都会基于 brain 里已知事实运行 cross-modal evaluation（跨模型评估）。Opus 4.7 1M 捕捉精确性错误；GPT-5.5 捕捉缺失上下文；DeepSeek V4-Pro 捕捉那些读起来太泛泛的地方。</p>
+<p>然后我升级到了使用 GBrain 工具的深度检索。原始版本擅长综合，但不够具体。第 3 版会针对每个部分进行 brain 搜索。右栏的每个条目都会引用真实的 brain page。当书里谈到如何处理困难对话时，它不会只是综合一些通用原则，而是会从我和具体创始人的真实会议记录中拉取内容——这些创始人当时正和联合创始人进行艰难对话。或者拉取我某个周四和弟弟 James 一起时冒出的想法。或者拉取我 19 岁时和大学室友的一段 IM 聊天。它有点不可思议。</p>
+<p>这就是 skillification（在 GBrain 里使用 /skillify）在实践中的含义。我把第一次手工尝试拿出来，提取其中可重复的模式，写成一个经过测试、包含触发条件和边界情况的 skill 文件；之后每一次修复，都会在所有未来的 book mirror 中复利生效。</p>
+<h2>会构建技能的技能</h2>
+<p>这里开始变得递归，也是我认为最大的洞察所在。</p>
+<p>运行我生活的这个系统，并不是一个从一开始就存在的单体。它是由 skills 组装起来的。而这些 skills 本身，又是由一个 skill 创建出来的。</p>
+<p>Skillify 是一个创建新 skills 的元技能。当我遇到一个之后会重复使用的工作流时，我会说：“skillify this”。它会检查刚刚发生了什么，提取可重复的模式，写成一个经过测试、包含触发条件和边界情况的 skill 文件，并把它注册到 resolver 里。book-mirror 流水线，就是从我第一次手工做这件事时 skillify 出来的。meeting-prep 工作流，则是在我意识到每次通话前都在做相同步骤后 skillify 出来的。</p>
+<p>Skills 可以组合。Book-mirror 会调用 brain-ops 来存储，调用 enrich 来补充上下文，调用 cross-modal-eval 来保证质量，调用 pdf-generation 来输出。每个 skill 都只专注做好一件事。它们串联起来，构成复杂工作流。当我改进某个 skill 时，所有使用它的工作流都会自动变好。不再有“我忘了在提示词里提这个边界情况”的问题。skill 自己会记住。</p>
+<h2>自动准备好的那场会议</h2>
+<p>Demis Hassabis 来 YC 做一次炉边对话。Sebastian Mallaby 写的 Demis 传记刚刚出版。</p>
+<p>我让系统帮我做准备。</p>
+<p>不到两分钟，它拉出了这些内容：Demis 的完整 brain page（几个月来从文章、播客转录稿和我自己的笔记中持续积累）；他公开表达过的 AGI 时间线观点（“50% 来自算力扩展，50% 来自算法创新”，并认为 AGI 会在 5 到 10 年内到来）；Mallaby 传记的重点；他声明过的研究优先级（持续学习、世界模型、长期记忆）；和我自己公开谈过的 AI 观点之间的交叉引用；三个用于在对话中展示 brain 多跳推理能力的演示脚本；以及一组基于我们世界观重叠点和分歧点的对话切入点。</p>
+<p>这不只是更好的 Google 搜索。这是一种利用了我关于 Demis 的累积上下文、我自己的立场以及这次对话战略目标的准备。系统准备的不只是事实，还有角度。</p>
+<h2>100,000 页 Brain 看起来是什么样</h2>
+<p>我维护着一个结构化知识库，大约有 100,000 个页面。我见过的每个人都有一个页面，包含时间线、状态部分（当前真实情况）、开放线索和一个分数。每一次会议都有转录稿、结构化摘要，以及我称为 entity propagation（实体传播）的东西：每次会议结束后，系统会遍历会议中提到的每个人和公司，并把讨论内容更新到他们各自的 brain page。每本我读过的书都有逐章 mirror。每篇文章、播客和视频，只要我接触过，都会被摄入、打标签并交叉引用。</p>
+<p>schema 很简单。每个页面顶部是 compiled truth（当前最佳理解），下面是 append-only timeline（按时间顺序追加的事件），旁边还有保存源材料的 raw data sidecars。你可以把它想象成一个个人维基：每个页面都由一个 AI 持续更新，而这个 AI 参加了会议、读了邮件、看了演讲、摄入了 PDF。</p>
+<p>这里有一个例子说明它如何复利。我在 office hours 见到一位创始人。系统会创建或更新他的人物页面、公司页面，交叉引用会议记录，检查我以前是否见过他（如果见过，就浮现上次聊了什么），检查他的申请数据，拉取最新指标，并识别我的投资组合公司或联系人里是否有人和他的问题相关。到我下一次和他见面时，系统已经准备好完整上下文包。</p>
+<p>这就是文件柜和神经系统之间的区别。文件柜负责存东西。神经系统负责连接它们、标记发生了什么变化，并在此刻浮现最相关的东西。</p>
+<h2>架构</h2>
+<p>它是这样工作的。我认为这是构建个人 AI 的正确方式，所以我把整套东西开源了，让你也可以自己搭建。</p>
+<p>harness 是薄的。OpenClaw 是 runtime。它接收我的消息，判断哪个 skill 适用，然后分发。几千行路由逻辑。它不了解书、会议或创始人。它只负责路由。</p>
+<p>skills 是胖的。现在有 100 多个，每一个都是一个自包含的 Markdown 文件，里面有针对某个具体任务的详细指令。你前面已经看到了 book-mirror 和 meeting-prep。下面是 GBrain 里附带的几个例子：</p>
+<ul>
+<li><strong>meeting-ingestion</strong>：每次会议后，它拉取转录稿，创建结构化摘要，然后遍历提到的每个人和公司，把讨论内容更新到他们的 brain page。会议页面不是最终产品。把实体传播回每个人和公司页面，才是真正的价值。</li>
+<li><strong>enrich</strong>：给它一个人的名字。它会从五个不同来源拉取信息，合并成一个 brain page，包含职业路径、联系方式、会议历史和关系上下文。每条判断都有引用来源。</li>
+<li><strong>media-ingest</strong>：处理视频、音频、PDF、截图、GitHub 仓库。它会转录、提取实体，并归档到 brain 中正确的位置。我经常用它处理 YouTube 视频、播客和语音备忘录。</li>
+<li><strong>perplexity-research</strong>：带 brain 增强的网页研究。它通过 Perplexity 搜索网页，但在综合之前，会先检查 brain 已经知道什么，这样它能告诉你什么是真正新增的信息，什么是你已经捕获过的。</li>
+</ul>
+<p>我还为自己的工作构建了几十个可能会开源的 skills：email-triage、investor-update-ingest（从邮件中检测投资组合更新并把指标提取到公司页面）、calendar-check（检查日程冲突和旅行不可行性），以及一整套我用于公共事务工作的新闻调查研究栈。每个 skill 都编码了运营知识，这些知识如果交给一个新的人类助理，可能需要几个月才能学会。有人问我怎么“提示”我的 AI，我的答案是：我不提示。skills 就是 prompts。</p>
+<p>数据是胖的。brain repo 里有 100,000 页结构化知识。每个人、公司、会议、书、文章和我接触过的想法，都被链接、可搜索，并且每天都在增长。</p>
+<p>代码也是胖的。喂养它的代码也重要：转录、OCR、社交媒体归档、日历同步、API 集成脚本等等。但复利价值主要在数据里。我每天运行 100 多个 cron，检查各种信息流：社交媒体、Slack、邮件，以及所有我会关注的东西，我的 OpenClaw/Hermes Agents 也会帮我看。</p>
+<p>模型是可替换的。我用 Opus 4.7 1M 处理需要精确性的任务，用 GPT-5.5 做召回和穷尽式提取，用 DeepSeek V4-Pro 做创意工作和第三视角，用 Groq 上的 Llama 处理需要速度的场景。由 skill 决定哪个任务调用哪个模型。harness 不关心。当有人问“哪个 AI 模型最好”时，答案是：这个问题问错了。模型只是引擎，其他一切才是车。</p>
+<h2>凌晨 2 点的建设者与复利系统</h2>
+<p>人们问我生产力。我不是这样思考的。我思考的是复利。</p>
+<p>我参加的每一次会议都会增加 brain 的厚度。我读的每一本书，都会丰富下一本书的上下文。我构建的每一个 skill，都会让下一个工作流更快。我更新的每一个人物页面，都会让下一次会议准备更准确。今天的系统是两个月前的 10 倍；再过两个月，它会是今天的 10 倍。</p>
+<p>当我凌晨 2 点还在写代码时（而且我确实经常这样，因为 AI 把构建的乐趣还给了我），我不是只在写软件。我是在往一个每小时都会变好的系统里添加东西。100 个 cronjob 7×24 小时运行。会议摄入自动运行。邮件分拣每 10 分钟运行一次。知识图谱从每一次对话中自我丰富。系统会处理每日转录稿，并实时提取我错过的模式。</p>
+<p>这不是写作工具。不是搜索引擎。不是聊天机器人。它是一个真正运转的 second brain，不是隐喻，而是一个正在运行的系统：100,000 页、100+ skills、15 个 cron jobs，以及过去一年里我所有职业关系、会议、书和想法的累积上下文。</p>
+<p>我把整套 stack 都开源了。GStack 是我用来构建它的 coding skill framework（87,000+ stars）。当 agent 需要写代码时，我仍然会在 OpenClaw/Hermes Agent 里把它作为一个 skill 使用。里面还有一个很棒的可编程浏览器，既支持 headed，也支持 headless。GBrain 是知识基础设施。OpenClaw 和 Hermes Agent 是 harness，你可以二选一，但我通常两个都用。数据仓库都在 GitHub 上。</p>
+<p>论点很简单：未来属于那些构建复利 AI 系统的个体，而不是使用企业拥有的中心化 AI 工具的个体。两者的差别，就像写日记和拥有神经系统之间的差别。</p>
+<h2>如何开始</h2>
+<p>如果你想构建这样的系统：</p>
+<p>选择一个 harness。OpenClaw、Hermes Agent，或者用 Pi 从零开始自己写。保持它足够薄。harness 只是路由器。你可以把它托管在家里的备用电脑上，用 Tailscale 连接；也可以放到 Render 或 Railway 这样的云服务上。</p>
+<p>从 GBrain 开始搭建 brain。我受到 Karpathy 的 LLM Wiki 启发，在 OpenClaw 里实现了它，并扩展成 GBrain。这是我 benchmark 过的最佳检索系统（在 LongMemEval 上达到 97.6% recall，在检索循环里不使用 LLM 的情况下超过 MemPalace），并且附带 39 个可安装 skills，包括本文中描述的一切。一个命令就能安装。它是一个 git repo，每个人、会议、文章和想法都会有一个页面。</p>
+<p>做一件有意思的事。不要一开始就规划你的 skill 架构。从做一件具体事情开始。写一份报告，研究一个人，下载一个赛季的 NBA 分数并为体育投注构建预测模型，分析你的投资组合。做任何你真正关心的事。用你的 agent 做，迭代到足够好，然后运行 Skillify（前面提到的元技能），把模式提取成可复用 skill。再运行 check_resolvable，验证新 skill 已经接入 resolver。这个循环会把一次性工作变成复利基础设施。</p>
+<p>持续使用它，并查看输出。一开始 skill 会很一般。这正是重点。使用它，阅读它生成的内容；当有地方不对时，运行 cross-modal eval：把输出交给多个模型，让它们基于你关心的维度互相评分。这就是我捕捉到 book-mirror 事实错误的方法。修复会被写回 skill，从那以后每一次 mirror 都会变干净。六个月后，你会拥有一个任何聊天机器人都无法复制的东西，因为价值不在模型里，而在于你已经教会系统的东西：关于你的具体生活、工作和判断。</p>
+<p>我用这个系统构建的第一个东西很糟糕。第 100 个东西，已经是我愿意信任它处理日历、收件箱、会议准备和阅读清单的东西。系统学会了。我也学会了。复利曲线是真实的。</p>
+<p>胖 skills。胖代码。薄 harness。LLM 本身只是一个引擎。你可以建造自己的车。</p>
+<p>我在这里描述的一切——所有 skills、book mirror 流水线、cross-modal eval 框架、skillify 循环、resolver 架构，以及 30+ 个可安装 skillpacks——都已经开源并免费放在 GitHub 上：<a href="https://github.com/garrytan/gbrain。去构建吧。" target="_blank" rel="noopener">github.com/garrytan/gbrain。去构建吧。</a></p>
+      <div class="note">翻译生成：Grace｜原文作者：Garry Tan｜仅作学习与资料整理使用。</div>
+    </article>
+  </main>
+</body>
+</html>
