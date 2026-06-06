@@ -4,6 +4,7 @@
 
 | 日期 | 标题 | 来源 | 标签 | 摘要 |
 |------|------|------|------|------|
+| 2026-06-06 | [Anthropic分享Skills在Claude Code的最佳实践](2026-06-06-anthropic-skills-claude-code-best-practices.md) | 微信公众号 (PaperAgent) | `AI` `AI产品` `工具` | Anthropic 内部跑数百个 skill 后，总结验证类 skill 回报最大，并给出七条写 skill 心法。 |
 | 2026-06-05 | [html-video: HTML→Video meta-layer for coding agents](2026-06-05-html-video-agent-video-gen.md) | Twitter/X | `AI产品` `工具` `AI` | Agent 通过写 HTML 生成高品质视频，内置20+模板，支持 Claude Code/Codex/cursor 等主流 CLI。 |
 | 2026-06-04 | [腾讯开源了 Agent Memory，让 AI 真正记住你](2026-06-04-tencent-agent-memory.md) | 微信公众号 / 逛逛GitHub | `AI` `AI产品` `工具` | 腾讯开源四层渐进式记忆架构，Agent 长期记忆准确率提升近60%。 |
 | 2026-05-26 | [拆解2030 · 未来产业逆向技术树](2026-05-26-decon-2030-reverse-tech-tree.md) | decon-2030.vercel.app | `投资` `AI` `方法论` | 九大2030赛道逆向拆解到上游材料与能源，每节点挂美股标的，附跨板块隐形赢家榜与主题ETF篮子。 |
