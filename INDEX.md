@@ -4,6 +4,7 @@
 
 | 日期 | 标题 | 来源 | 标签 | 摘要 |
 |------|------|------|------|------|
+| 2026-06-09 | [Loop Engineering 来了：你不再亲手写 Prompt，而是写"循环"](2026-06-09-loop-engineering.md) | 微信公众号（ChallengeHub） | `AI` `AI产品` `技术` | 把编程智能体协作范式从"写 Prompt"升级到设计自动化循环，拆解五大模块与 Codex/Claude Code 对照。 |
 | 2026-06-08 | [微信正在变成Agent时代的操作系统](2026-06-08-wechat-agent-operating-system.md) | 微信公众号 / 数字生命卡兹克 | `AI产品` `商业` `技术` | 微信测试AI Agent、A2A助手、小程序自动接入，作者提出Agentic Commerce第三种商业模式。 |
 | 2026-06-08 | [拆解opencode context做了哪些优化](2026-06-08-opencode-context-optimization.md) | luozhiyun.com | `AI` `技术` `AI产品` | 深度拆解 opencode 上下文工程：三层体积控制、Prompt Caching、tool result 防膨胀、doom loop 检测。 |
 | 2026-06-06 | [Anthropic分享Skills在Claude Code的最佳实践](2026-06-06-anthropic-skills-claude-code-best-practices.md) | 微信公众号 (PaperAgent) | `AI` `AI产品` `工具` | Anthropic 内部跑数百个 skill 后，总结验证类 skill 回报最大，并给出七条写 skill 心法。 |
