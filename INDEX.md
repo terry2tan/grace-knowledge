@@ -4,6 +4,7 @@
 
 | 日期 | 标题 | 来源 | 标签 | 摘要 |
 |------|------|------|------|------|
+| 2026-06-11 | [Claude Code之父说的"Loop工程"到底是怎么回事？](2026-06-11-claude-code-loop-engineering-hype.md) | 微信公众号 / MacTalk | `AI产品` `工具` `技术` | 拆解Loop Engineering：/loop是定时循环，/goal是递归目标，二者结合才是真正的Loop工程，提示词不会消失只是在循环里。 |
 | 2026-06-09 | [Loop Engineering 来了：你不再亲手写 Prompt，而是写"循环"](2026-06-09-loop-engineering.md) | 微信公众号（ChallengeHub） | `AI` `AI产品` `技术` | 把编程智能体协作范式从"写 Prompt"升级到设计自动化循环，拆解五大模块与 Codex/Claude Code 对照。 |
 | 2026-06-08 | [微信正在变成Agent时代的操作系统](2026-06-08-wechat-agent-operating-system.md) | 微信公众号 / 数字生命卡兹克 | `AI产品` `商业` `技术` | 微信测试AI Agent、A2A助手、小程序自动接入，作者提出Agentic Commerce第三种商业模式。 |
 | 2026-06-08 | [拆解opencode context做了哪些优化](2026-06-08-opencode-context-optimization.md) | luozhiyun.com | `AI` `技术` `AI产品` | 深度拆解 opencode 上下文工程：三层体积控制、Prompt Caching、tool result 防膨胀、doom loop 检测。 |
