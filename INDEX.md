@@ -4,6 +4,7 @@
 
 | 日期 | 标题 | 来源 | 标签 | 摘要 |
 |------|------|------|------|------|
+| 2026-06-15 | [KimiCode vs ClaudeCode：kimi2.7 code preview 工程实测](2026-06-15-kimicode-vs-claudecode-k27-test.md) | 微信公众号·硅基鹿鸣 | `AI产品` `工具` `技术` | 同任务实测 trace：K2.7 工具调用减半、耗时砍半，UI 跨过及格线，国际模型拉上限、国产模型做落地。 |
 | 2026-06-11 | [与AI一起做产品的六条原则](2026-06-11-ai-product-six-principles.md) | 微信公众号 / AGENT橘 | `AI产品` `方法论` `产品` | AI放大人、人做减法、品味沉淀为context、打磨到80分才交付、共情不可替代、守住一致性——六条原则可作skill发给Agent。 |
 | 2026-06-12 | [AI世代，警惕一场静悄悄发生的"认知投降"](2026-06-12-ai-cognitive-surrender.md) | 微信公众号 / 腾讯研究院 | `AI` `商业` `方法论` | 腾讯研究院圆桌：AI谄媚与均值化侵蚀人类判断，认知投降的风险比生产力提升更值得警惕。 |
 | 2026-06-11 | [Claude Code之父说的"Loop工程"到底是怎么回事？](2026-06-11-claude-code-loop-engineering-hype.md) | 微信公众号 / MacTalk | `AI产品` `工具` `技术` | 拆解Loop Engineering：/loop是定时循环，/goal是递归目标，二者结合才是真正的Loop工程，提示词不会消失只是在循环里。 |
