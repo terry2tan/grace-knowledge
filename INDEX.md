@@ -4,6 +4,7 @@
 
 | 日期 | 标题 | 来源 | 标签 | 摘要 |
 |------|------|------|------|------|
+| 2026-06-17 | [人人都在教你搭 AI 的循环，但难的从来是另一半：验证](2026-06-17-loop-engineering-verification.md) | 微信公众号 / 深思SenseAI | `AI产品` `技术` `方法论` | Loop Engineering 的瓶颈不是生成器而是验证器；绿色循环不等于正确循环，产出质量被验证闸门封顶。 |
 | 2026-06-17 | [格局打开,才能赢麻!——AI 数据中心全球半导体产业链分工](2026-06-17-ai-data-center-global-semiconductor-chain.md) | 微信公众号 / 投资人六便士 | `投资` `AI` `商业` | 用微笑曲线拆解 AI 数据中心全球分工:美架构/台制造/韩HBM/日材料/荷EUV/中光模块,A 股优势在光模块与 PCB。 |
 | 2026-06-15 | [KimiCode vs ClaudeCode：kimi2.7 code preview 工程实测](2026-06-15-kimicode-vs-claudecode-k27-test.md) | 微信公众号·硅基鹿鸣 | `AI产品` `工具` `技术` | 同任务实测 trace：K2.7 工具调用减半、耗时砍半，UI 跨过及格线，国际模型拉上限、国产模型做落地。 |
 | 2026-06-11 | [与AI一起做产品的六条原则](2026-06-11-ai-product-six-principles.md) | 微信公众号 / AGENT橘 | `AI产品` `方法论` `产品` | AI放大人、人做减法、品味沉淀为context、打磨到80分才交付、共情不可替代、守住一致性——六条原则可作skill发给Agent。 |
