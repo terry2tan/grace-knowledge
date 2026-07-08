@@ -3,6 +3,7 @@
 > 按收录时间倒序排列。每次保存新内容后自动更新。
 
 | 日期 | 标题 | 来源 | 标签 | 摘要 |
+| 2026-07-08 | [Anthropic终于公开了他们内部Skill方法论](2026-07-08-anthropic-skill-methodology.md) | 微信公众号/AI产品阿颖 | `AI` `AI产品` `技术` | Anthropic Claude Code Skill 设计5要点：隐性知识沉淀、Context Engineering文件夹结构、Instructions+Scripts互补、Description做路由、自下而上Marketplace分发 |
 |------|------|------|------|------|
 | 2026-07-07 | [王阳明心学，被Anthropic用来教Claude做人了](2026-07-07-wang-yangming-anthropic-alignment.md) | 量子位 | `AI` `AI产品` `技术` | 研究王阳明十年的哲学教授加入 Anthropic 做对齐训练，用"知行合一=消除信念冲突"框架映射 MSM 方法，使 Claude 勒索率从96%降到0%。 |
 | 2026-07-04 | [中国大类资产投资 2025 年报 - SBBI 前言](2026-07-04-china-sbbi-2025-preface.md) | 有知有行 | `投资` `商业` | 有知有行沿用 Ibbotson SBBI 框架，用 R=Alpha+Beta-Cost 拆解中国21年大类资产：Beta才是普通投资者收益基石，A股长期驱动力是企业盈利而非估值。 |
