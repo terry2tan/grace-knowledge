@@ -3,6 +3,7 @@
 > 按收录时间倒序排列。每次保存新内容后自动更新。
 
 | 日期 | 标题 | 来源 | 标签 | 摘要 |
+| 2026-07-11 | [DojoAgents — 全市场个人投资 AI 副驾](2026-07-11-dojoagents-fullmarket-ai-invest-copilot.md) | GitHub (@CycleDecoded 推文) | `AI` `投资` `工具` | 开源全市场AI投研Agent：Loop-Driven推理引擎+四层组合诊断+多模态持仓截图识别+机构级React仪表盘，覆盖A股/美股/港股/Crypto/外汇，支持本地LLM。Apache 2.0。 |
 | 2026-07-08 | [Anthropic终于公开了他们内部Skill方法论](2026-07-08-anthropic-skill-methodology.md) | 微信公众号/AI产品阿颖 | `AI` `AI产品` `技术` | Anthropic Claude Code Skill 设计5要点：隐性知识沉淀、Context Engineering文件夹结构、Instructions+Scripts互补、Description做路由、自下而上Marketplace分发 |
 |------|------|------|------|------|
 | 2026-07-07 | [王阳明心学，被Anthropic用来教Claude做人了](2026-07-07-wang-yangming-anthropic-alignment.md) | 量子位 | `AI` `AI产品` `技术` | 研究王阳明十年的哲学教授加入 Anthropic 做对齐训练，用"知行合一=消除信念冲突"框架映射 MSM 方法，使 Claude 勒索率从96%降到0%。 |
