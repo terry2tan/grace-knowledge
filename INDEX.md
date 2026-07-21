@@ -3,6 +3,7 @@
 > 按收录时间倒序排列。每次保存新内容后自动更新。
 
 | 日期 | 标题 | 来源 | 标签 | 摘要 |
+| 2026-07-21 | [The Archetype Under the Title](2026-07-21-archetype-under-the-title.md) | paddo.dev | `AI` `职业` `AI产品` | Agent 时代职位头衔消融，Claude Code 作者提出 5 种产品生命周期原型角色，真正稀缺的是品味判断与以人为本的影响力。 |
 | 2026-07-13 | [10倍生产力和打折的支付能力，AI最大的矛盾如何破局？](2026-07-13-ai-economy-demand-bottleneck.md) | 雪球/思想钢印 | `AI` `投资` `商业` | 用「小熊小猪+银行家科学家」童话模型解释AI供需矛盾：杰文斯悖论+技术通缩+信用扩张是长期破局之道，组织改造方向是消灭「人肉信息路由」。 |
 | 2026-07-11 | [DojoAgents — 全市场个人投资 AI 副驾](2026-07-11-dojoagents-fullmarket-ai-invest-copilot.md) | GitHub (@CycleDecoded 推文) | `AI` `投资` `工具` | 开源全市场AI投研Agent：Loop-Driven推理引擎+四层组合诊断+多模态持仓截图识别+机构级React仪表盘，覆盖A股/美股/港股/Crypto/外汇，支持本地LLM。Apache 2.0。 |
 | 2026-07-08 | [Anthropic终于公开了他们内部Skill方法论](2026-07-08-anthropic-skill-methodology.md) | 微信公众号/AI产品阿颖 | `AI` `AI产品` `技术` | Anthropic Claude Code Skill 设计5要点：隐性知识沉淀、Context Engineering文件夹结构、Instructions+Scripts互补、Description做路由、自下而上Marketplace分发 |
