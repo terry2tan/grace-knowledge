@@ -3,6 +3,7 @@
 > 按收录时间倒序排列。每次保存新内容后自动更新。
 
 | 日期 | 标题 | 来源 | 标签 | 摘要 |
+| 2026-08-03 | [实测OpenWorker：吴恩达全新开源AI桌面同事](2026-08-03-openworker-andrew-ng.md) | 微信公众号/产品思界 | `AI` `AI产品` `工具` | 吴恩达团队开源的 local-first、model-agnostic 桌面办公 Agent（MIT，Python，1.2w★）；但原文是AI营销稿、含虚构模型名，建议直接看 GitHub repo。 |
 | 2026-07-21 | [如何判断一个人是否真正 AI Native？](2026-07-21-ai-native-benchmark.md) | 微信公众号/阿迪亚的人生旅程 | `AI` `职业` `方法论` | 提出三层 AI Native Benchmark（Practitioner 10 维/Super Individual 4 特征/Macro 8 维），包含设计/产品/项管/中层四岗位入口路径，本质是从工具使用→能力系统→工作流重构→系统理解的三次迁移。 |
 | 2026-07-21 | [The Archetype Under the Title](2026-07-21-archetype-under-the-title.md) | paddo.dev | `AI` `职业` `AI产品` | Agent 时代职位头衔消融，Claude Code 作者提出 5 种产品生命周期原型角色，真正稀缺的是品味判断与以人为本的影响力。 |
 | 2026-07-13 | [10倍生产力和打折的支付能力，AI最大的矛盾如何破局？](2026-07-13-ai-economy-demand-bottleneck.md) | 雪球/思想钢印 | `AI` `投资` `商业` | 用「小熊小猪+银行家科学家」童话模型解释AI供需矛盾：杰文斯悖论+技术通缩+信用扩张是长期破局之道，组织改造方向是消灭「人肉信息路由」。 |
