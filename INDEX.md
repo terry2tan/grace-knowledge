@@ -3,6 +3,7 @@
 > 按收录时间倒序排列。每次保存新内容后自动更新。
 
 | 日期 | 标题 | 来源 | 标签 | 摘要 |
+| 2026-08-13 | [WorkBuddy存在感极强——腾讯Q2财报电话会的10点观察与思考](2026-08-13-tencent-q2-workbuddy-ai-strategy.md) | 微信公众号/卫夕指北 | `AI` `AI产品` `商业` | 腾讯Q2电话会显示资源正集中押注WorkBuddy，混元Hy4年底发布，小微仍灰度收着；AI新产品单季净投入约105亿。 |
 | 2026-08-06 | [Agent评测漫谈 —— 由浅入深讲解Agent评测](2026-08-06-meituan-agent-evaluation.md) | 微信公众号/美团技术团队 | `AI` `AI产品` `技术` | 美团图灵团队公开内部博客：Agent评测需覆盖结果/过程/效率/风险四层，人人/人机一致Rubric二元化可把一致率从62%提到92%；长程Agent转向Prompt→Expected Behavior→Trace行为评测，Skill评测成新痛点。 |
 | 2026-08-04 | [腾讯、阿里、字节的 AI 办公大战：赛马与变阵内幕](2026-08-04-bigtech-ai-office-war.md) | 微信公众号/晚点LatePost | `AI` `AI产品` `商业` | 春节 C 端大战碰壁后，BAT 半年内完成办公 Agent 组织整合；WorkBuddy 暂时领跑，旧 IM/协作套件正被判定为上一代产物。 |
 | 2026-08-03 | [AI产品榜·应用榜 2026年07月：豆包三连跌、WorkBuddy+397%、Kimi反弹](2026-08-03-aicpb-app-rankings-2026-07.md) | 微信公众号/AI产品榜 | `AI` `AI产品` `商业` | ChatGPT MAU 破10亿；豆包三月跌1865万、千问逼近至5709万差距；WorkBuddy增速全球第一；Kimi K3开源反弹15%；Claude订阅收入增速+29.5%远超ChatGPT。 |
