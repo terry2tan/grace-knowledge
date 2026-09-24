@@ -3,6 +3,8 @@
 > 按收录时间倒序排列。每次保存新内容后自动更新。
 
 | 日期 | 标题 | 来源 | 标签 | 摘要 |
+|------|------|------|------|------|
+| 2026-09-24 | [Agent Reach — 给 AI Agent 一键装上互联网能力](2026-09-24-agent-reach.md) | GitHub | `AI` `工具` | 85K Stars：一条命令给 Agent 装上读 Twitter/Reddit/YouTube/B站/小红书/雪球的能力；能力层设计，首选+备选后端自动路由。 |
 | 2026-09-03 | [WorkBuddy有生态了，其他玩家呢？](2026-09-03-workbuddy-ecosystem.md) | 微信公众号/梁狗蛋 | `AI产品` `商业` `AI` | WorkBuddy开放平台上线：百家伙伴+9款硬件+30应用；判断通用生态权集中于少数强平台，端侧厂商宜依附生态+垂直薄生态（Plaud路径）。 |
 | 2026-08-13 | [WorkBuddy存在感极强——腾讯Q2财报电话会的10点观察与思考](2026-08-13-tencent-q2-workbuddy-ai-strategy.md) | 微信公众号/卫夕指北 | `AI` `AI产品` `商业` | 腾讯Q2电话会显示资源正集中押注WorkBuddy，混元Hy4年底发布，小微仍灰度收着；AI新产品单季净投入约105亿。 |
 | 2026-08-06 | [Agent评测漫谈 —— 由浅入深讲解Agent评测](2026-08-06-meituan-agent-evaluation.md) | 微信公众号/美团技术团队 | `AI` `AI产品` `技术` | 美团图灵团队公开内部博客：Agent评测需覆盖结果/过程/效率/风险四层，人人/人机一致Rubric二元化可把一致率从62%提到92%；长程Agent转向Prompt→Expected Behavior→Trace行为评测，Skill评测成新痛点。 |
