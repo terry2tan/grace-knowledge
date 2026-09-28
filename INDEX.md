@@ -4,6 +4,7 @@
 
 | 日期 | 标题 | 来源 | 标签 | 摘要 |
 |------|------|------|------|------|
+| 2026-09-28 | [How We Built Safety Into Muse（Meta 个人 Agent 安全架构）](2026-09-28-meta-muse-agent-security.md) | research.meta.ai | `AI` `技术` | Meta个人Agent Muse安全架构全文：systemd-nspawn隔离runtime cell、surrogate token+Sentinel权限机构、eBPF tainted egress、prompt injection纵深防御。 |
 | 2026-09-24 | [Agent Reach — 给 AI Agent 一键装上互联网能力](2026-09-24-agent-reach.md) | GitHub | `AI` `工具` | 85K Stars：一条命令给 Agent 装上读 Twitter/Reddit/YouTube/B站/小红书/雪球的能力；能力层设计，首选+备选后端自动路由。 |
 | 2026-09-03 | [WorkBuddy有生态了，其他玩家呢？](2026-09-03-workbuddy-ecosystem.md) | 微信公众号/梁狗蛋 | `AI产品` `商业` `AI` | WorkBuddy开放平台上线：百家伙伴+9款硬件+30应用；判断通用生态权集中于少数强平台，端侧厂商宜依附生态+垂直薄生态（Plaud路径）。 |
 | 2026-08-13 | [WorkBuddy存在感极强——腾讯Q2财报电话会的10点观察与思考](2026-08-13-tencent-q2-workbuddy-ai-strategy.md) | 微信公众号/卫夕指北 | `AI` `AI产品` `商业` | 腾讯Q2电话会显示资源正集中押注WorkBuddy，混元Hy4年底发布，小微仍灰度收着；AI新产品单季净投入约105亿。 |
