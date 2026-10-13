@@ -4,6 +4,7 @@
 
 | 日期 | 标题 | 来源 | 标签 | 摘要 |
 |------|------|------|------|------|
+| 2026-10-13 | [Lee Robinson 斯坦福演讲：Always-on Proactive Agents](2026-10-13-leerob-stanford-alwayson-agents.md) | x.com | `AI` `AI产品` `技术` | 斯坦福CS146S演讲：拆解常驻主动式agent架构——模型层变化、agent内部机制、harness、context engineering与未来方向。 |
 | 2026-09-29 | [Manus进入2.0时代](2026-09-29-manus-2-0-cue.md) | 腾讯科技/微信公众号 | `AI产品` `AI` `工具` | Manus 2.0：Cascade框架省token、云电脑+事件触发持续运行、Studio可编辑初稿；个人Agent应用Cue给Agent配邮箱/电话/钱包。 |
 | 2026-09-28 | [How We Built Safety Into Muse（Meta 个人 Agent 安全架构）](2026-09-28-meta-muse-agent-security.md) | research.meta.ai | `AI` `技术` | Meta个人Agent Muse安全架构全文：systemd-nspawn隔离runtime cell、surrogate token+Sentinel权限机构、eBPF tainted egress、prompt injection纵深防御。 |
 | 2026-09-24 | [Agent Reach — 给 AI Agent 一键装上互联网能力](2026-09-24-agent-reach.md) | GitHub | `AI` `工具` | 85K Stars：一条命令给 Agent 装上读 Twitter/Reddit/YouTube/B站/小红书/雪球的能力；能力层设计，首选+备选后端自动路由。 |
