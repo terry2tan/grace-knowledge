@@ -4,6 +4,7 @@
 
 | 日期 | 标题 | 来源 | 标签 | 摘要 |
 |------|------|------|------|------|
+| 2026-10-13 | [Karpathy：LLM 能力认知漏斗正在拉大](2026-10-13-karpathy-llm-capability-funnel.md) | x.com | `AI` `技术` | 60亿人没接触LLM vs 约5000人见过前沿内部系统：认知漏斗由问题规模野心、能力锯齿状分布、访问层级三因素驱动。 |
 | 2026-10-13 | [Lee Robinson 斯坦福演讲：Always-on Proactive Agents](2026-10-13-leerob-stanford-alwayson-agents.md) | x.com | `AI` `AI产品` `技术` | 斯坦福CS146S演讲：拆解常驻主动式agent架构——模型层变化、agent内部机制、harness、context engineering与未来方向。 |
 | 2026-09-29 | [Manus进入2.0时代](2026-09-29-manus-2-0-cue.md) | 腾讯科技/微信公众号 | `AI产品` `AI` `工具` | Manus 2.0：Cascade框架省token、云电脑+事件触发持续运行、Studio可编辑初稿；个人Agent应用Cue给Agent配邮箱/电话/钱包。 |
 | 2026-09-28 | [How We Built Safety Into Muse（Meta 个人 Agent 安全架构）](2026-09-28-meta-muse-agent-security.md) | research.meta.ai | `AI` `技术` | Meta个人Agent Muse安全架构全文：systemd-nspawn隔离runtime cell、surrogate token+Sentinel权限机构、eBPF tainted egress、prompt injection纵深防御。 |
