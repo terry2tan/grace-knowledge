@@ -4,6 +4,7 @@
 
 | 日期 | 标题 | 来源 | 标签 | 摘要 |
 |------|------|------|------|------|
+| 2026-10-16 | [这波"个人Agent"集体转向，说明行业的底座换了？](2026-10-16-personal-agent-paradigm-shift.md) | 腾讯科技/微信公众号 | `AI` `AI产品` `技术` | 9月Agent新品潮的真正主线是Always-on底座成熟：Grok Bot四卡点解法、Muse个人特化（目标系统/记忆库/Sentinel）、人与工作Agent合流及认知缴械风险。 |
 | 2026-10-13 | [Karpathy：LLM 能力认知漏斗正在拉大](2026-10-13-karpathy-llm-capability-funnel.md) | x.com | `AI` `技术` | 60亿人没接触LLM vs 约5000人见过前沿内部系统：认知漏斗由问题规模野心、能力锯齿状分布、访问层级三因素驱动。 |
 | 2026-10-13 | [Lee Robinson 斯坦福演讲：Always-on Proactive Agents](2026-10-13-leerob-stanford-alwayson-agents.md) | x.com | `AI` `AI产品` `技术` | 斯坦福CS146S演讲：拆解常驻主动式agent架构——模型层变化、agent内部机制、harness、context engineering与未来方向。 |
 | 2026-09-29 | [Manus进入2.0时代](2026-09-29-manus-2-0-cue.md) | 腾讯科技/微信公众号 | `AI产品` `AI` `工具` | Manus 2.0：Cascade框架省token、云电脑+事件触发持续运行、Studio可编辑初稿；个人Agent应用Cue给Agent配邮箱/电话/钱包。 |
