@@ -165,7 +165,7 @@
 | 2026-03-31 | [OpenAI 给 Claude Code 做了个插件？两大 AI 编程工具首次联手实测](2026-03-31-openai-codex-claude-code-plugin.md) | 硅基鹿鸣 | `AI` `AI 产品，工具` | OpenAI 官方发布 codex-plugin-cc，让开发者可以直接在 Claude Code  |
 | 2026-03-31 | [我用Harness Engineering实现【无人值守式】的产品开发运营](2026-03-31-我用harness-engineering实现无人值守式的产品开发运营.md) | 微信公众号 | `AI` `AI 产品` `出海` | 我用Harness Engineering实现【无人值守式】的产品开发运营 * 我用Harness  |
 | 2026-04-09 | [装完Hermes Agent玩了一圈，我觉得龙虾已死！](2026-04-09-hermes-agent-harness-engineering.md) | 微信公众号 | `AI产品` `工具` `技术` | 这篇文章把 `Hermes Agent` 视为 OpenClaw 之后第一个值得认真关注的同类竞争者 |
-| 2026-04-09 | [Hermes Agent vs OpenHarness实测：工程实现的两条路径](2026-04-09-hermes-vs-openharness-engineering-paths.md) | 微信公众号 | `AI产品` `工具` `技术` | 这篇文章最有价值的地方，不是简单比较两个 Python Agent 框架谁更强，而是把 `Harne |
+| 2026-04-09 | [Hermes Agent vs OpenHarness实测：工程实现的两条路径](2026-04-09-hermes-vs-openharness-engineering-paths.md) | 微信公众号 | `AI产品` `工具` `技术` | 这篇文章最有价值的地方，不是简单比较两个 Python Agent 框架谁更强，而是把 Harne… |
 | 2026-04-13 | [AI 时代，产品经理这个岗位正在失去意义](2026-04-13-ai-pm-role-losing-meaning.md) | 微信公众号 | `AI产品` `产品` `职业` | 文章借 Keith Rabois 在 Lenny's Podcast 中对 PM 的判断，提出 AI |
 | 2026-04-13 | [obsidian-ai-orange-book: Obsidian + Claude Code: Rebuild Your Second Brain with AI](2026-04-13-obsidian-ai-orange-book-repo.md) | github.com | `AI产品` `工具` `方法论` | 用 Markdown、Claude Code 和 Vault 架构重建 AI 时代个人知识库。 |
 | 2026-04-13 | [58页的 Obsidian + Claude Code 构建知识库橙皮书](2026-04-13-obsidian-claude-code-orange-book.md) | x.com | `AI产品` `工具` `方法论` | 用 Obsidian + Claude Code 搭建 AI 时代知识库的系统材料。 |
