@@ -4,6 +4,7 @@
 
 | 日期 | 标题 | 来源 | 标签 | 摘要 |
 |------|------|------|------|------|
+| 2026-10-24 | [深度实测：Muse 如何把 OpenClaw 变成千万用户的个人 Agent？](2026-10-24-muse-openclaw-product-teardown.md) | 雷峰网/微信公众号 | `AI产品` `产品` `技术` | Muse实测+逆向：与OpenClaw同范式，五项成本（安装/选择/学习/监看/自我介绍）从用户身上挪走；OpenClaw要人学机器，Muse让机器学人。 |
 | 2026-10-24 | [万字复盘 Codex：一个在模型公司如何做产品的「典型」故事](2026-10-24-codex-product-story.md) | Founder Park/微信公众号 | `AI产品` `技术` `创业` | Codex从ChatGPT标签页反噬成桌面底座全程复盘：Cloud失败、本地重写Agent、无编辑器桌面App、模型强了问题自动消解。 |
 | 2026-10-24 | [深度讨论 Personal Agent：“最互联网”的 AI 命题](2026-10-24-personal-agent-best-ideas.md) | 海外独角兽/微信公众号 | `AI产品` `商业` `AI` | Personal Agent全景讨论：Muse数据与留存瓶颈、成本高互联网2-3个数量级、商业模式与生态格局，早期重产品中期看模型长期看生态。 |
 | 2026-10-24 | [智谱唐杰署名RSI新成果开源！Agent自我进化成本还狂降53%](2026-10-24-harnesspro-rsi-agent.md) | 量子位/微信公众号 | `AI` `AI产品` `技术` | HarnessPro：帕累托优化引入RSI，四Agent流水线自进化Harness，成本降53%还提分，开源。 |
