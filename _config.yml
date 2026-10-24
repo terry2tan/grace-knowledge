@@ -1,0 +1,15 @@
+title: Grace Knowledge
+description: 个人知识库
+lang: zh-CN
+
+# INDEX.md 作为站点首页
+defaults:
+  - scope:
+      path: "INDEX.md"
+    values:
+      permalink: /
+
+exclude:
+  - logs/
+  - .claude/
+  - sync-to-github.sh

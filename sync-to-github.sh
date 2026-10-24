@@ -19,6 +19,7 @@ fi
 
 # Commit and push
 git commit -m "$MSG"
+git pull --rebase origin main
 git push origin main
 
 echo "✓ Synced to GitHub: $MSG"
