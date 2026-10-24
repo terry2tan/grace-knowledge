@@ -26,10 +26,29 @@
     td:first-child { white-space: nowrap; }
     td code { white-space: nowrap; font-size: 0.8em; }
     blockquote { margin: 0; padding: 0 1em; color: var(--muted); border-left: 4px solid var(--border); }
+    .meta { border-bottom: 1px solid var(--border); margin-bottom: 24px; padding-bottom: 16px; }
+    .meta h1 { margin: 0 0 8px; line-height: 1.4; }
+    .meta + h1 { display: none; }
+    .meta p { margin: 4px 0; color: var(--muted); font-size: 0.9em; }
+    .tag { display: inline-block; background: var(--code); border-radius: 999px; padding: 0 10px; margin: 2px 4px 2px 0; font-size: 0.85em; }
   </style>
 </head>
 <body>
   <header><a href="{{ '/' | relative_url }}">📚 {{ site.title }}</a></header>
-  <main>{{ content }}</main>
+  <main>
+    {% if page.has_meta %}
+    <div class="meta">
+      <h1>{{ page.title }}</h1>
+      <p>
+        {% if page.date %}{{ page.date | date: "%Y-%m-%d" }}{% endif %}
+        {% if page.author %} · {{ page.author }}{% endif %}
+        {% if page.source %} · {{ page.source }}{% endif %}
+        {% if page.source_url %} · <a href="{{ page.source_url }}" target="_blank" rel="noopener">原文链接</a>{% endif %}
+      </p>
+      {% if page.tags %}<p>{% for tag in page.tags %}<span class="tag">{{ tag }}</span>{% endfor %}</p>{% endif %}
+    </div>
+    {% endif %}
+    {{ content }}
+  </main>
 </body>
 </html>

@@ -2,8 +2,19 @@ title: Grace Knowledge
 description: 个人知识库
 lang: zh-CN
 
-# INDEX.md 作为站点首页
+plugins:
+  - jekyll-default-layout
+  - jekyll-optional-front-matter
+  - jekyll-relative-links
+  - jekyll-titles-from-headings
+
 defaults:
+  # 文章正文里的 {{ }} 等按原样显示，不当模板解析
+  - scope:
+      path: ""
+    values:
+      render_with_liquid: false
+  # INDEX.md 作为站点首页
   - scope:
       path: "INDEX.md"
     values:
@@ -13,3 +24,7 @@ exclude:
   - logs/
   - .claude/
   - sync-to-github.sh
+  - Gemfile
+  - Gemfile.lock
+  - vendor/
+  - .github/
