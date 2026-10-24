@@ -4,6 +4,7 @@
 
 | 日期 | 标题 | 来源 | 标签 | 摘要 |
 |------|------|------|------|------|
+| 2026-10-24 | [深度讨论 Personal Agent：“最互联网”的 AI 命题](2026-10-24-personal-agent-best-ideas.md) | 海外独角兽/微信公众号 | `AI产品` `商业` `AI` | Personal Agent全景讨论：Muse数据与留存瓶颈、成本高互联网2-3个数量级、商业模式与生态格局，早期重产品中期看模型长期看生态。 |
 | 2026-10-24 | [智谱唐杰署名RSI新成果开源！Agent自我进化成本还狂降53%](2026-10-24-harnesspro-rsi-agent.md) | 量子位/微信公众号 | `AI` `AI产品` `技术` | HarnessPro：帕累托优化引入RSI，四Agent流水线自进化Harness，成本降53%还提分，开源。 |
 | 2026-10-20 | [万字Personal AI深度研究：Muse，Cue，Dots，小微，小豆，Today，Instinct，Alexa+](2026-10-20-personal-ai-deep-research.md) | 言之AI笔记/微信公众号 | `AI产品` `AI` `商业` | Personal AI品类全景拆解：竞争资源从Attention→Intent→Delegation，终局是个人意图操作系统；四层Personal定义、六块技术拼图、Memory Lock-in与Trust Flywheel。 |
 | 2026-10-20 | [DeepSeek 开源推理框架：96% 的输入，都不用重新计算](2026-10-20-deepseek-deepinfer-96pct-cache.md) | 赛博禅心/微信公众号 | `技术` `AI` | DeepSeek开源DeepInfer+deepseek-recipe：PD分离、3FS缓存集群（96%命中/差25倍吞吐）、SWA Bounded Replay、DSPark投机解码、MoE专家负载均衡全拆解。 |
