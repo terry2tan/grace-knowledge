@@ -4,6 +4,7 @@
 
 | 日期 | 标题 | 来源 | 标签 | 摘要 |
 |------|------|------|------|------|
+| 2026-10-26 | [Manus，刚刚悄悄发布了自己的 2.0 宣言](2026-10-26-manus-2.0-manifesto-ai-native-org.md) | 微信公众号/极客公园 | `AI产品` `AI` `商业` | 张涛《用Manus改造Manus》：7人维护4个App、一半PM能独立上线、人均月烧1万美元AI；Human in the loop→on the loop；判断通用Agent下一地盘在团队协作层。 |
 | 2026-10-26 | [Personal Agent，（这次）能成吗｜深度](2026-10-26-personal-agent-sovereign-agent-economy.md) | 微信公众号/腾讯科技 | `AI` `AI产品` `商业` | Mingke拆PA：API困境十年未解、商业逻辑错位，提出主权Agent（用户决定Meta Goal）；李彪：关键在上下文由谁掌握，可迁移上下文系统是创业机会；Agent Economy增量在意图的流动性。 |
 | 2026-10-26 | [How experts are using their dots](2026-10-26-openai-dots-expert-use-cases.md) | chatgptpro.substack.com | `AI产品` `AI` | OpenAI官方8个dots实证：主动挖出邮件堆里的融资变更、语音中办完下架专辑全部表单、会议转录自动维护速记本——常驻agent价值在proactive+端到端，非对话。 |
 | 2026-10-26 | [Anthropic 总裁最新访谈：坚决不做AI伴侣与广告](2026-10-26-anthropic-president-interview-time-back-to-humans.md) | 微信公众号/AGI 2050 | `AI` `AI产品` `商业` | Amodei谈产品红线：不做AI伴侣、不接广告，把底层激励做干净；Claude Code让内部写码时间40%→20%；AI使命是把时间还给真实生活。 |
