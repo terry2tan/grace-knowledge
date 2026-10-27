@@ -4,6 +4,7 @@
 
 | 日期 | 标题 | 来源 | 标签 | 摘要 |
 |------|------|------|------|------|
+| 2026-10-27 | [Anthropic要IPO了，招股书里11个有趣的细节](2026-10-27-anthropic-ipo-11-details.md) | 微信公众号/数字生命卡兹克 | `AI` `投资` | ANT拟募1000亿美元或成史上最大IPO；收入五季度涨30倍、算力ROI花1挣2；7创始人7美元握50.1%投票权；22%股份做公益；超5000亿照付不议算力合同。 |
 | 2026-10-26 | [Manus，刚刚悄悄发布了自己的 2.0 宣言](2026-10-26-manus-2.0-manifesto-ai-native-org.md) | 微信公众号/极客公园 | `AI产品` `AI` `商业` | 张涛《用Manus改造Manus》：7人维护4个App、一半PM能独立上线、人均月烧1万美元AI；Human in the loop→on the loop；判断通用Agent下一地盘在团队协作层。 |
 | 2026-10-26 | [Personal Agent，（这次）能成吗｜深度](2026-10-26-personal-agent-sovereign-agent-economy.md) | 微信公众号/腾讯科技 | `AI` `AI产品` `商业` | Mingke拆PA：API困境十年未解、商业逻辑错位，提出主权Agent（用户决定Meta Goal）；李彪：关键在上下文由谁掌握，可迁移上下文系统是创业机会；Agent Economy增量在意图的流动性。 |
 | 2026-10-26 | [How experts are using their dots](2026-10-26-openai-dots-expert-use-cases.md) | chatgptpro.substack.com | `AI产品` `AI` | OpenAI官方8个dots实证：主动挖出邮件堆里的融资变更、语音中办完下架专辑全部表单、会议转录自动维护速记本——常驻agent价值在proactive+端到端，非对话。 |
