@@ -4,6 +4,7 @@
 
 | 日期 | 标题 | 来源 | 标签 | 摘要 |
 |------|------|------|------|------|
+| 2026-10-27 | [Manus 内部复盘：一家 Agent 公司，如何先用 Agent 改造自己？](2026-10-27-manus-agent-transforms-itself.md) | 微信公众号/Founder Park | `AI产品` `AI` `商业` | 张涛内部复盘：Manus-mono让一工程师并行十几需求、一半PM独立上线、视频当PRD、数字同事可自提需求；9月人均AI开销超1万美元。 |
 | 2026-10-27 | [Anthropic要IPO了，招股书里11个有趣的细节](2026-10-27-anthropic-ipo-11-details.md) | 微信公众号/数字生命卡兹克 | `AI` `投资` | ANT拟募1000亿美元或成史上最大IPO；收入五季度涨30倍、算力ROI花1挣2；7创始人7美元握50.1%投票权；22%股份做公益；超5000亿照付不议算力合同。 |
 | 2026-10-26 | [Manus，刚刚悄悄发布了自己的 2.0 宣言](2026-10-26-manus-2.0-manifesto-ai-native-org.md) | 微信公众号/极客公园 | `AI产品` `AI` `商业` | 张涛《用Manus改造Manus》：7人维护4个App、一半PM能独立上线、人均月烧1万美元AI；Human in the loop→on the loop；判断通用Agent下一地盘在团队协作层。 |
 | 2026-10-26 | [Personal Agent，（这次）能成吗｜深度](2026-10-26-personal-agent-sovereign-agent-economy.md) | 微信公众号/腾讯科技 | `AI` `AI产品` `商业` | Mingke拆PA：API困境十年未解、商业逻辑错位，提出主权Agent（用户决定Meta Goal）；李彪：关键在上下文由谁掌握，可迁移上下文系统是创业机会；Agent Economy增量在意图的流动性。 |
