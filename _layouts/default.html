@@ -3,52 +3,94 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{% if page.title %}{{ page.title }} · {% endif %}{{ site.title }}</title>
-  <style>
-    :root { --bg: #fff; --fg: #1f2328; --muted: #656d76; --border: #d0d7de; --link: #0969da; --code: #f6f8fa; }
-    @media (prefers-color-scheme: dark) {
-      :root { --bg: #0d1117; --fg: #e6edf3; --muted: #8d96a0; --border: #30363d; --link: #4493f8; --code: #161b22; }
-    }
-    * { box-sizing: border-box; }
-    body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.7 -apple-system, "PingFang SC", "Microsoft YaHei", "Segoe UI", sans-serif; }
-    header { border-bottom: 1px solid var(--border); padding: 12px 16px; }
-    header a { color: var(--fg); font-weight: 600; text-decoration: none; }
-    main { max-width: 1100px; margin: 0 auto; padding: 24px 16px 64px; overflow-wrap: anywhere; }
-    a { color: var(--link); }
-    img { max-width: 100%; height: auto; }
-    pre, code { background: var(--code); border-radius: 6px; font-size: 0.9em; }
-    pre { padding: 12px; overflow-x: auto; }
-    code { padding: 0.1em 0.3em; }
-    pre code { padding: 0; }
-    table { border-collapse: collapse; display: block; overflow-x: auto; width: 100%; }
-    th, td { border: 1px solid var(--border); padding: 6px 10px; vertical-align: top; }
-    th { background: var(--code); white-space: nowrap; }
-    td:first-child { white-space: nowrap; }
-    td code { white-space: nowrap; font-size: 0.8em; }
-    blockquote { margin: 0; padding: 0 1em; color: var(--muted); border-left: 4px solid var(--border); }
-    .meta { border-bottom: 1px solid var(--border); margin-bottom: 24px; padding-bottom: 16px; }
-    .meta h1 { margin: 0 0 8px; line-height: 1.4; }
-    .meta + h1 { display: none; }
-    .meta p { margin: 4px 0; color: var(--muted); font-size: 0.9em; }
-    .tag { display: inline-block; background: var(--code); border-radius: 999px; padding: 0 10px; margin: 2px 4px 2px 0; font-size: 0.85em; }
-  </style>
+  <title>{% if page.title and page.is_home != true %}{{ page.title }} · {% endif %}{{ site.title }}</title>
+  <script>
+    // 尽早应用主题和阅读偏好，避免闪烁
+    try {
+      var s = JSON.parse(localStorage.getItem("gk-prefs") || "{}");
+      if (s.theme) document.documentElement.dataset.theme = s.theme;
+      if (s.font) document.documentElement.dataset.font = s.font;
+      if (s.size) document.documentElement.style.setProperty("--reading-size", s.size + "px");
+    } catch (e) {}
+  </script>
+  <link rel="stylesheet" href="{{ '/assets/site.css' | relative_url }}">
 </head>
-<body>
-  <header><a href="{{ '/' | relative_url }}">📚 {{ site.title }}</a></header>
-  <main>
-    {% if page.has_meta %}
-    <div class="meta">
-      <h1>{{ page.title }}</h1>
-      <p>
-        {% if page.date %}{{ page.date | date: "%Y-%m-%d" }}{% endif %}
-        {% if page.author %} · {{ page.author }}{% endif %}
-        {% if page.source %} · {{ page.source }}{% endif %}
-        {% if page.source_url %} · <a href="{{ page.source_url }}" target="_blank" rel="noopener">原文链接</a>{% endif %}
-      </p>
-      {% if page.tags %}<p>{% for tag in page.tags %}<span class="tag">{{ tag }}</span>{% endfor %}</p>{% endif %}
+<body class="{% if page.is_home %}is-home{% elsif page.is_article %}is-article{% else %}is-page{% endif %}">
+  {% if page.is_article %}<div class="progress" aria-hidden="true"><span></span></div>{% endif %}
+  <header class="topbar">
+    <a class="brand" href="{{ '/' | relative_url }}">Grace Knowledge</a>
+    <nav class="topnav">
+      <a href="{{ '/' | relative_url }}">按天浏览</a>
+      <a href="{{ '/table/' | relative_url }}">表格视图</a>
+      <button type="button" class="icon-btn" data-action="theme" title="切换深浅色" aria-label="切换深浅色">◐</button>
+    </nav>
+  </header>
+
+  {% if page.is_article %}
+  <div class="article-wrap">
+    <article class="post">
+      <header class="post-head">
+        <a class="back" href="{{ '/' | relative_url }}#d-{{ page.display_date }}">← {{ page.display_date }}</a>
+        <h1>{{ page.title }}</h1>
+        <p class="post-meta">
+          <span>{{ page.display_date }}</span>
+          {% if page.author %}<span>{{ page.author }}</span>{% endif %}
+          {% if page.source %}<span>{{ page.source }}</span>{% endif %}
+          <span>约 {{ page.reading_minutes }} 分钟</span>
+          {% if page.source_url %}<a href="{{ page.source_url }}" target="_blank" rel="noopener">原文 ↗</a>{% endif %}
+        </p>
+        {% if page.tags %}<p class="tags">{% for tag in page.tags %}<a class="tag" href="{{ '/' | relative_url }}#tag={{ tag | uri_escape }}">{{ tag }}</a>{% endfor %}</p>{% endif %}
+      </header>
+      <div class="post-body" id="post-body">
+        {{ content }}
+      </div>
+      <nav class="post-nav">
+        {% if page.newer_article %}<a class="newer" href="{{ page.newer_article.url }}"><small>较新一篇</small>{{ page.newer_article.title }}</a>{% else %}<span></span>{% endif %}
+        {% if page.older_article %}<a class="older" href="{{ page.older_article.url }}"><small>较早一篇</small>{{ page.older_article.title }}</a>{% endif %}
+      </nav>
+    </article>
+    <aside class="side">
+      <div class="reader-tools" role="group" aria-label="阅读设置">
+        <button type="button" data-action="smaller" title="缩小字号">A−</button>
+        <button type="button" data-action="bigger" title="放大字号">A+</button>
+        <button type="button" data-action="font" title="切换宋体/黑体">宋/黑</button>
+      </div>
+      <nav class="toc" id="toc" aria-label="目录"></nav>
+    </aside>
+  </div>
+
+  <button type="button" class="ai-fab" data-action="ai-open">与 AI 讨论</button>
+  <div class="ai-panel" id="ai-panel" hidden>
+    <div class="ai-head">
+      <strong>与 AI 讨论这篇文章</strong>
+      <button type="button" class="icon-btn" data-action="ai-close" aria-label="关闭">✕</button>
     </div>
-    {% endif %}
+    <div class="ai-log" id="ai-log"></div>
+    <div class="ai-presets">
+      <button type="button" data-prompt="用 5 条要点总结这篇文章的核心观点，并指出每条的论据是否充分。">提炼要点</button>
+      <button type="button" data-prompt="站在反方立场，指出这篇文章最值得质疑的 3 个论断，并说明理由。">找漏洞</button>
+      <button type="button" data-prompt="结合这篇文章，我可以在工作或投资上采取哪些具体行动？请给出可执行的清单。">怎么用</button>
+      <button type="button" data-prompt="把文章中出现的关键概念和人名列出来，各用一句话解释。">概念速查</button>
+    </div>
+    <form class="ai-form" id="ai-form">
+      <textarea id="ai-input" rows="3" placeholder="写下你的问题，或点上面的快捷提问"></textarea>
+      <div class="ai-actions" id="ai-actions"></div>
+    </form>
+    <p class="ai-note" id="ai-note"></p>
+  </div>
+  <script>
+    window.GK = {
+      baseurl: {{ site.baseurl | jsonify }},
+      ai: {{ site.ai | jsonify }},
+      article: { title: {{ page.title | jsonify }}, source: {{ page.source_url | jsonify }} }
+    };
+  </script>
+  {% else %}
+  <main class="page{% if page.is_home %} home{% endif %}">
     {{ content }}
   </main>
+  <script>window.GK = { baseurl: {{ site.baseurl | jsonify }} };</script>
+  {% endif %}
+  <script src="{{ '/assets/site.js' | relative_url }}" defer></script>
 </body>
 </html>
