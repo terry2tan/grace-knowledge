@@ -1,0 +1,57 @@
+---
+layout: default
+---
+{% assign kb = site.data.kb %}
+<section class="hero">
+  <h1>Grace Knowledge</h1>
+  <p>共 {{ kb.total }} 篇 · {{ kb.days.size }} 天 · 最近收录 {{ kb.days.first.date }}</p>
+</section>
+
+<div class="toolbar">
+  <input type="search" id="q" placeholder="搜索标题、摘要、来源…" autocomplete="off">
+  <div class="tag-filter" id="tag-filter">
+    <button type="button" class="chip is-on" data-tag="">全部</button>
+    {% for t in kb.tags limit: 14 %}<button type="button" class="chip" data-tag="{{ t.name | escape }}">{{ t.name }} <small>{{ t.count }}</small></button>{% endfor %}
+    {% if kb.tags.size > 14 %}<details class="more-tags"><summary class="chip">更多</summary><div>{% for t in kb.tags offset: 14 %}<button type="button" class="chip" data-tag="{{ t.name | escape }}">{{ t.name }} <small>{{ t.count }}</small></button>{% endfor %}</div></details>{% endif %}
+  </div>
+  <p class="result-info" id="result-info" hidden></p>
+</div>
+
+<div class="home-grid">
+  <nav class="timeline" aria-label="按日期跳转">
+    {% for m in kb.months %}
+    <details class="tl-month"{% if forloop.index <= 2 %} open{% endif %}>
+      <summary>{{ m.label }} <small>{{ m.count }}</small></summary>
+      <ul>
+        {% for d in m.days %}<li><a href="#d-{{ d.date }}" data-date="{{ d.date }}">{{ d.label }} <small>{{ d.articles.size }}</small></a></li>{% endfor %}
+      </ul>
+    </details>
+    {% endfor %}
+  </nav>
+
+  <div class="days" id="days">
+    {% for d in kb.days %}
+    <section class="day" id="d-{{ d.date }}" data-date="{{ d.date }}">
+      <h2 class="day-head">
+        <span class="day-date">{{ d.label }}</span>
+        <span class="day-week">{{ d.weekday }}{% if d.year != kb.days.first.year %} · {{ d.year }}{% endif %}</span>
+        <span class="day-count">{{ d.articles.size }} 篇</span>
+      </h2>
+      <div class="cards">
+        {% for a in d.articles %}
+        <a class="card" href="{{ a.url }}" target="_blank" rel="noopener" data-tags="{{ a.tags | join: '|' | escape }}">
+          <span class="card-title">{{ a.title | escape }}</span>
+          {% if a.summary != "" %}<span class="card-summary">{{ a.summary | escape }}</span>{% endif %}
+          <span class="card-meta">
+            {% if a.source != "" %}<span>{{ a.source | escape }}</span>{% endif %}
+            <span>{{ a.minutes }} 分钟</span>
+            {% for t in a.tags %}<span class="tag">{{ t | escape }}</span>{% endfor %}
+          </span>
+        </a>
+        {% endfor %}
+      </div>
+    </section>
+    {% endfor %}
+    <p class="empty" id="empty" hidden>没有匹配的文章</p>
+  </div>
+</div>

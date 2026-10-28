@@ -2,11 +2,27 @@ title: Grace Knowledge
 description: 个人知识库
 lang: zh-CN
 
+# 文章页「与 AI 讨论」面板。
+# 留空时：复制文章 + 提示词，跳转到下面的网页版 AI 粘贴讨论。
+# 填入自建接口地址后：直接在页面内对话（接口约定见 assets/site.js 里的 askEndpoint）。
+ai:
+  endpoint: ""
+  providers:
+    - name: Claude
+      url: https://claude.ai/new
+    - name: ChatGPT
+      url: https://chatgpt.com/
+    - name: Kimi
+      url: https://www.kimi.com/
+
 plugins:
   - jekyll-default-layout
   - jekyll-optional-front-matter
   - jekyll-relative-links
   - jekyll-titles-from-headings
+
+kramdown:
+  auto_ids: true
 
 defaults:
   # 文章正文里的 {{ }} 等按原样显示，不当模板解析
@@ -14,11 +30,12 @@ defaults:
       path: ""
     values:
       render_with_liquid: false
-  # INDEX.md 作为站点首页
+  # 首页由 _plugins/knowledge_index.rb 按天生成；INDEX.md 保留为表格视图
   - scope:
       path: "INDEX.md"
     values:
-      permalink: /
+      permalink: /table/
+      title: 表格视图
 
 exclude:
   - logs/
