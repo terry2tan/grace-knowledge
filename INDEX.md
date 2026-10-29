@@ -4,6 +4,7 @@
 
 | 日期 | 标题 | 来源 | 标签 | 摘要 |
 |------|------|------|------|------|
+| 2026-10-29 | [谷歌官方 70 分钟生产级 Agent 免费课程（Hux 推荐）](2026-10-29-google-production-agent-course.md) | x.com/huxlab | `AI产品` `技术` `工具` | 谷歌70分钟免费课：5个工程核心——基础闭环、持久化记忆、长时自主循环、MCP架构、多Agent协同。 |
 | 2026-10-28 | [VoiceStudio：开源全本地 ElevenLabs 替代品](2026-10-28-voicestudio-local-elevenlabs-alternative.md) | github.com | `AI` `工具` `技术产品` | 92k星开源本地语音工作站：克隆/配音/转录/有声书，646语言，带本地API+MCP和agent skills。 |
 | 2026-10-27 | [Manus 内部复盘：一家 Agent 公司，如何先用 Agent 改造自己？](2026-10-27-manus-agent-transforms-itself.md) | 微信公众号/Founder Park | `AI产品` `AI` `商业` | 张涛内部复盘：Manus-mono让一工程师并行十几需求、一半PM独立上线、视频当PRD、数字同事可自提需求；9月人均AI开销超1万美元。 |
 | 2026-10-27 | [Anthropic要IPO了，招股书里11个有趣的细节](2026-10-27-anthropic-ipo-11-details.md) | 微信公众号/数字生命卡兹克 | `AI` `投资` | ANT拟募1000亿美元或成史上最大IPO；收入五季度涨30倍、算力ROI花1挣2；7创始人7美元握50.1%投票权；22%股份做公益；超5000亿照付不议算力合同。 |
