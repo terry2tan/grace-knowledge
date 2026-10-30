@@ -4,6 +4,7 @@
 
 | 日期 | 标题 | 来源 | 标签 | 摘要 |
 |------|------|------|------|------|
+| 2026-10-31 | [dimensional-drawing：教 Agent 画 Apple 风格的 UI 组件技术图纸](2026-10-31-dimensional-drawing.md) | github.com | `AI产品` `工具` | 给UI组件产出一页Apple风格技术图纸：变量化标注、架构不画内容、未知值[TBD]，附motion动画skill，1.6k星。 |
 | 2026-10-31 | [baoyu-design：把 claude.ai 的 Artifact 设计能力搬到本地 Agent Skill](2026-10-31-baoyu-design-local-claude-design.md) | github.com | `AI产品` `工具` | 宝玉把claude.ai/design重打包成本地skill：幻灯片/画布/设计系统/dashboard+dataviz，人机共编同一批文件，5.4k星。 |
 | 2026-10-31 | [改变我 Vibe Coding 审美的网站（variant.com）](2026-10-31-variant-com-vibe-coding.md) | x.com/dashiAIxz | `AI产品` `工具` | Variant：不用描述需求，滚动即生成设计方案的AI创意总监式产品，推文本身信息量低。 |
 | 2026-10-31 | [歸藏设计 · dsh-guizang-design（DeepSeek Harness 插件）](2026-10-31-dsh-guizang-design.md) | github.com | `AI产品` `工具` | 歸藏为dsh做的设计插件：网页PPT/卡片/排版/去AI味四skill+语气档案，共用OKLCH设计token，跨skill工作流，数据全本地。 |
