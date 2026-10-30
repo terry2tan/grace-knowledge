@@ -4,6 +4,7 @@
 
 | 日期 | 标题 | 来源 | 标签 | 摘要 |
 |------|------|------|------|------|
+| 2026-10-31 | [擴增人類智慧（ryo.lu 日誌）](2026-10-31-augmenting-human-intellect-ryo.md) | ryo.lu | `AI产品` `职业` | 前Cursor工程师回到Engelbart/Licklider/Ingalls源头：AI应帮人发现自己想表达什么，而非让人在外面等；衡量标准是以前无法参与的人能理解/表达/改变什么。 |
 | 2026-10-31 | [dimensional-drawing：教 Agent 画 Apple 风格的 UI 组件技术图纸](2026-10-31-dimensional-drawing.md) | github.com | `AI产品` `工具` | 给UI组件产出一页Apple风格技术图纸：变量化标注、架构不画内容、未知值[TBD]，附motion动画skill，1.6k星。 |
 | 2026-10-31 | [baoyu-design：把 claude.ai 的 Artifact 设计能力搬到本地 Agent Skill](2026-10-31-baoyu-design-local-claude-design.md) | github.com | `AI产品` `工具` | 宝玉把claude.ai/design重打包成本地skill：幻灯片/画布/设计系统/dashboard+dataviz，人机共编同一批文件，5.4k星。 |
 | 2026-10-31 | [改变我 Vibe Coding 审美的网站（variant.com）](2026-10-31-variant-com-vibe-coding.md) | x.com/dashiAIxz | `AI产品` `工具` | Variant：不用描述需求，滚动即生成设计方案的AI创意总监式产品，推文本身信息量低。 |
