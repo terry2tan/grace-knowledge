@@ -4,6 +4,7 @@
 
 | 日期 | 标题 | 来源 | 标签 | 摘要 |
 |------|------|------|------|------|
+| 2026-11-02 | [阿里云Memory服务升级，面向Personal Agent增强长期记忆与个性化能力](2026-11-02-aliyun-memory-personal-agent.md) | 微信公众号/阿里云 | `AI` `AI产品` | 阿里云Memory升级：长期记忆+用户画像，HaluMem/PersonaMem评测领先，支持MCP/CLI接入OpenClaw等。 |
 | 2026-11-01 | [一文看懂 DeepSeek Super-agent，多个任务怎么一起推进](2026-11-01-deepseek-superagent-prototype.md) | mp.weixin.qq.com | `AI产品` `技术` `AI` | dsh-superagent-prototype详解：Router+Worker分工、Ticket+Subscription跨线程跟进、SQLite持久化、Mandate授权范围。 |
 | 2026-10-31 | [dsh-superagent：DeepSeek 的自主 Super-agent 原型](2026-10-31-deepseek-dsh-superagent.md) | github.com | `AI` `AI产品` | DeepSeek研究原型：单仓库主动式编码agent，核心哲学「最少占用人类注意力、最多交付价值」。 |
 | 2026-10-31 | [8 位中推设计师：提高 Vibe Coding 品味的学习清单（Bruce Van）](2026-10-31-vibecoding-design-taste-8-designers.md) | x.com/bruc3van | `AI产品` `工具` | 8位中推设计师清单：嵌套圆角公式、AI slop自查清单、黑白灰留色给内容、中文字体写法等可复用细节。 |
