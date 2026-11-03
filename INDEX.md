@@ -4,6 +4,7 @@
 
 | 日期 | 标题 | 来源 | 标签 | 摘要 |
 |------|------|------|------|------|
+| 2026-11-03 | [腾讯项目管理教你用资料库从 0 到 1 搭一套「项目大脑」](2026-11-03-workbuddy-project-brain.md) | mp.weixin.qq.com | `AI` `AI产品` | 腾讯光子PM用WorkBuddy资料库搭「项目大脑」五步法，含全套Prompt：AI归类、会议纪要增强、智能看板、协同编辑、知识传承。 |
 | 2026-11-03 | [帮你的 DeepSeek Harness 做出有设计感、没 AI 味的东西](2026-11-03-dsh-guizang-design-plugin.md) | mp.weixin.qq.com | `AI` `工具` | 歸藏发布dsh-guizang-design插件：5个设计Skill共用设计系统、多平台分发工作流、语气档案学你的说话方式、作品库支持做同款。 |
 | 2026-11-02 | [阿里云Memory服务升级，面向Personal Agent增强长期记忆与个性化能力](2026-11-02-aliyun-memory-personal-agent.md) | 微信公众号/阿里云 | `AI` `AI产品` | 阿里云Memory升级：长期记忆+用户画像，HaluMem/PersonaMem评测领先，支持MCP/CLI接入OpenClaw等。 |
 | 2026-11-01 | [一文看懂 DeepSeek Super-agent，多个任务怎么一起推进](2026-11-01-deepseek-superagent-prototype.md) | mp.weixin.qq.com | `AI产品` `技术` `AI` | dsh-superagent-prototype详解：Router+Worker分工、Ticket+Subscription跨线程跟进、SQLite持久化、Mandate授权范围。 |
