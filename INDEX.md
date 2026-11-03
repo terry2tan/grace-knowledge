@@ -4,6 +4,7 @@
 
 | 日期 | 标题 | 来源 | 标签 | 摘要 |
 |------|------|------|------|------|
+| 2026-11-03 | [卡兹克：折腾1年的Agent自动化系统，毫无保留分享](2026-11-03-khazix-agent-automation-system.md) | x.com/Khazix0918 | `AI` `AI产品` | 事件驱动中台+rules.json路由+Mac反向接单+多模型分工+自建CI五步流水线+飞书批奏折，完整个人Agent OS架构。 |
 | 2026-11-03 | [向阳乔木：HN 数据库是宝藏，一晚上开发出四个网站](2026-11-03-vista8-hackernews-data-websites.md) | x.com/vista8 | `AI` `工具` | HuggingFace可下12GB HN数据，一晚上开发出黑客书库/生意经/写作课/URLs四个垂直站。 |
 | 2026-11-03 | [腾讯项目管理教你用资料库从 0 到 1 搭一套「项目大脑」](2026-11-03-workbuddy-project-brain.md) | mp.weixin.qq.com | `AI` `AI产品` | 腾讯光子PM用WorkBuddy资料库搭「项目大脑」五步法，含全套Prompt：AI归类、会议纪要增强、智能看板、协同编辑、知识传承。 |
 | 2026-11-03 | [帮你的 DeepSeek Harness 做出有设计感、没 AI 味的东西](2026-11-03-dsh-guizang-design-plugin.md) | mp.weixin.qq.com | `AI` `工具` | 歸藏发布dsh-guizang-design插件：5个设计Skill共用设计系统、多平台分发工作流、语气档案学你的说话方式、作品库支持做同款。 |
