@@ -4,6 +4,7 @@
 
 | 日期 | 标题 | 来源 | 标签 | 摘要 |
 |------|------|------|------|------|
+| 2026-11-07 | [Anthropic 谈 Agent 记忆：记忆靠「做梦整理」](2026-11-07-anthropic-agent-memory-dreaming.md) | mp.weixin.qq.com | `AI` `技术` | Anthropic官方记忆设计：干潘时记日志、闲时dreaming离线整理纠错建wiki；强模型只说清记忆用途比定死规则好；顶层要瘦身只当索引。 |
 | 2026-11-07 | [量子位：硅谷华人抢跑 DeepSeek，AFK AI Comma 下一代 Agent Harness](2026-11-07-afk-ai-comma-agent-harness.md) | mp.weixin.qq.com | `AI` `AI产品` | 单Router+多Worker提前落地Super-agent共识；跨环境双向接活、24h值守、上下文外存记忆、小模型持续学习，已开源。 |
 | 2026-11-07 | [哲学视角：Personal Agent 的记忆机制如何设计](2026-11-07-personal-agent-memory-design.md) | mp.weixin.qq.com | `AI` `技术` | 遗忘是记忆的一半；六层记忆架构（L3用户模型为核心）+元数据；写入五问；降权/失效/删除三档遗忘；记忆主权归用户。 |
 | 2026-11-06 | [DeepSeek Harness 最新进展：154万日活、3.49万第三方插件](2026-11-06-dsh-154w-dau-35k-plugins.md) | mp.weixin.qq.com | `AI` `AI产品` | 日活154万/月活548万，日均92.1万亿token，插件3.49万个@60%用户用过；四款社区插件+插件作者扶持计划。 |
