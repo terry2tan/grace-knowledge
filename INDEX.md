@@ -4,6 +4,8 @@
 
 | 日期 | 标题 | 来源 | 标签 | 摘要 |
 |------|------|------|------|------|
+| 2026-11-07 | [量子位：硅谷华人抢跑 DeepSeek，AFK AI Comma 下一代 Agent Harness](2026-11-07-afk-ai-comma-agent-harness.md) | mp.weixin.qq.com | `AI` `AI产品` | 单Router+多Worker提前落地Super-agent共识；跨环境双向接活、24h值守、上下文外存记忆、小模型持续学习，已开源。 |
+| 2026-11-07 | [哲学视角：Personal Agent 的记忆机制如何设计](2026-11-07-personal-agent-memory-design.md) | mp.weixin.qq.com | `AI` `技术` | 遗忘是记忆的一半；六层记忆架构（L3用户模型为核心）+元数据；写入五问；降权/失效/删除三档遗忘；记忆主权归用户。 |
 | 2026-11-06 | [DeepSeek Harness 最新进展：154万日活、3.49万第三方插件](2026-11-06-dsh-154w-dau-35k-plugins.md) | mp.weixin.qq.com | `AI` `AI产品` | 日活154万/月活548万，日均92.1万亿token，插件3.49万个@60%用户用过；四款社区插件+插件作者扶持计划。 |
 | 2026-11-04 | [Agent 岗到底在面什么](2026-11-04-agent-interview-what-they-ask.md) | mp.weixin.qq.com | `AI` `职业` | Agent应用岗面试三件事：概念分得清、闭环讲得通（FC/Loop/Harness逐环节挖题）、坑真踩过（幂等/超时/线上事故）。 |
 | 2026-11-04 | [卡兹克开源 Agent-Autoloop：极简内核+万物皆插件](2026-11-04-agent-autoloop-open-source.md) | mp.weixin.qq.com | `AI` `工具` | 1600行零依赖内核，事件/Agent/通道/CI全插件化；挂起零消耗、事件溯源、防注入、跳数熔断四机制，已开源。 |
