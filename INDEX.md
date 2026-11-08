@@ -4,6 +4,7 @@
 
 | 日期 | 标题 | 来源 | 标签 | 摘要 |
 |------|------|------|------|------|
+| 2026-11-08 | [DeepSeek 创造模式官方教程：7 套插件提示词+技巧提炼](2026-11-08-dsh-creator-mode-prompts.md) | mp.weixin.qq.com | `AI` `工具` | 一句话造插件；7条官方Prompt原文全录；提炼12条技巧：入口定位/样式参考物/交互枚举/默认值入Prompt/防冲突负向约束/留一处发挥。 |
 | 2026-11-08 | [腾讯 Agent 评测体系技术拆解：从 Harness 工程化到质量飞轮](2026-11-08-tencent-agent-eval-system.md) | mp.weixin.qq.com | `AI` `技术` | 评测是Harness内置层；五块解耦+异常五层分层可归因；Tool Head Accuracy/轨迹编辑距离两指标；EvalMate三引擎飞轮+可照抄发布门禁阈值+10条启示。 |
 | 2026-11-07 | [Anthropic 谈 Agent 记忆：记忆靠「做梦整理」](2026-11-07-anthropic-agent-memory-dreaming.md) | mp.weixin.qq.com | `AI` `技术` | Anthropic官方记忆设计：干潘时记日志、闲时dreaming离线整理纠错建wiki；强模型只说清记忆用途比定死规则好；顶层要瘦身只当索引。 |
 | 2026-11-07 | [量子位：硅谷华人抢跑 DeepSeek，AFK AI Comma 下一代 Agent Harness](2026-11-07-afk-ai-comma-agent-harness.md) | mp.weixin.qq.com | `AI` `AI产品` | 单Router+多Worker提前落地Super-agent共识；跨环境双向接活、24h值守、上下文外存记忆、小模型持续学习，已开源。 |
