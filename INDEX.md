@@ -4,6 +4,7 @@
 
 | 日期 | 标题 | 来源 | 标签 | 摘要 |
 |------|------|------|------|------|
+| 2026-11-08 | [练习「输出方案」：事现→解预→方行 三段框架](2026-11-08-output-solution-framework.md) | mp.weixin.qq.com | `职业` `方法论` | 用方案代替旁观抱怨；事实现状→解释预测→方案行动；以粟裕齐辰电逐段验证；可直接当汇报/投研/Prompt骨架。 |
 | 2026-11-08 | [DeepSeek 创造模式官方教程：7 套插件提示词+技巧提炼](2026-11-08-dsh-creator-mode-prompts.md) | mp.weixin.qq.com | `AI` `工具` | 一句话造插件；7条官方Prompt原文全录；提炼12条技巧：入口定位/样式参考物/交互枚举/默认值入Prompt/防冲突负向约束/留一处发挥。 |
 | 2026-11-08 | [腾讯 Agent 评测体系技术拆解：从 Harness 工程化到质量飞轮](2026-11-08-tencent-agent-eval-system.md) | mp.weixin.qq.com | `AI` `技术` | 评测是Harness内置层；五块解耦+异常五层分层可归因；Tool Head Accuracy/轨迹编辑距离两指标；EvalMate三引擎飞轮+可照抄发布门禁阈值+10条启示。 |
 | 2026-11-07 | [Anthropic 谈 Agent 记忆：记忆靠「做梦整理」](2026-11-07-anthropic-agent-memory-dreaming.md) | mp.weixin.qq.com | `AI` `技术` | Anthropic官方记忆设计：干潘时记日志、闲时dreaming离线整理纠错建wiki；强模型只说清记忆用途比定死规则好；顶层要瘦身只当索引。 |
