@@ -4,6 +4,7 @@
 
 | 日期 | 标题 | 来源 | 标签 | 摘要 |
 |------|------|------|------|------|
+| 2026-11-09 | [DSH 创造模式实操指南：6条省 Token 经验 + 3层玩法 + 7条提示词](2026-11-09-dsh-creator-mode-guide.md) | mp.weixin.qq.com | `AI` `工具` `AI产品` | 第一句话决定成败：先查宿主接口→抄内置插件→空架子；刷新vs重启；跨窗口经验 SKILL.md 按需加载；3层开放（看板/全屏工作台/后台钩子）。 |
 | 2026-11-08 | [DSH 18 个插件清单（管理/通道/可观测/记忆/生产力）](2026-11-08-dsh-18-plugins.md) | mp.weixin.qq.com | `AI` `工具` | 18个DSH插件分类清单：market、plugin-hub、context、cost-meter、memory-palace、univer-office（确认后落盘）、ego-browser等。 |
 | 2026-11-08 | [练习「输出方案」：事现→解预→方行 三段框架](2026-11-08-output-solution-framework.md) | mp.weixin.qq.com | `职业` `方法论` | 用方案代替旁观抱怨；事实现状→解释预测→方案行动；以粟裕齐辰电逐段验证；可直接当汇报/投研/Prompt骨架。 |
 | 2026-11-08 | [DeepSeek 创造模式官方教程：7 套插件提示词+技巧提炼](2026-11-08-dsh-creator-mode-prompts.md) | mp.weixin.qq.com | `AI` `工具` | 一句话造插件；7条官方Prompt原文全录；提炼12条技巧：入口定位/样式参考物/交互枚举/默认值入Prompt/防冲突负向约束/留一处发挥。 |
