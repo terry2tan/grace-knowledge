@@ -5,6 +5,8 @@
 | 日期 | 标题 | 来源 | 标签 | 摘要 |
 |------|------|------|------|------|
 | 2026-11-11 | [前端岗位一年减少51%，FDE暴涨4.6倍：AI没有赶走工程师，却正在拆掉岗位边界](2026-11-11-ai-job-market-fde.md) | CSDN/微信公众号 | `AI` `职业` `商业` | Lenny科技就业报告：PM开放岗近四年最高、工程增长停滞但FDE涨4.6倍/前端-51%，AI在重新给能力定价，离业务越近责任越完整越抗稀释。 |
+| 2026-11-14 | [46K Star · Hindsight：会学习的 Agent 记忆系统](2026-11-14-hindsight-agent-memory.md) | mp.weixin.qq.com | `AI` `工具` | retain/recall/reflect 三原语闭环，钩子全自动接入 Claude Code/Cursor，从事实综合出自动刷新的心智模型。 |
+| 2026-11-14 | [Anthropic 刚教的 24 小时 agent，当天做出来了（FanBox 2.20.0）](2026-11-14-always-on-agents-fanbox.md) | mp.weixin.qq.com | `AI` `技术` `AI产品` | 对照 DeepSeek Super-agent 与 Anthropic always-on agents 两文，FanBox 落地：值守轮只读不写、人在否由系统判、醒一次有成本、盯梢轮询补推送盲区。 |
 | 2026-11-09 | [DSH 创造模式实操指南：6条省 Token 经验 + 3层玩法 + 7条提示词](2026-11-09-dsh-creator-mode-guide.md) | mp.weixin.qq.com | `AI` `工具` `AI产品` | 第一句话决定成败：先查宿主接口→抄内置插件→空架子；刷新vs重启；跨窗口经验 SKILL.md 按需加载；3层开放（看板/全屏工作台/后台钩子）。 |
 | 2026-11-08 | [DSH 18 个插件清单（管理/通道/可观测/记忆/生产力）](2026-11-08-dsh-18-plugins.md) | mp.weixin.qq.com | `AI` `工具` | 18个DSH插件分类清单：market、plugin-hub、context、cost-meter、memory-palace、univer-office（确认后落盘）、ego-browser等。 |
 | 2026-11-08 | [练习「输出方案」：事现→解预→方行 三段框架](2026-11-08-output-solution-framework.md) | mp.weixin.qq.com | `职业` `方法论` | 用方案代替旁观抱怨；事实现状→解释预测→方案行动；以粟裕齐辰电逐段验证；可直接当汇报/投研/Prompt骨架。 |
