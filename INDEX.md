@@ -5,6 +5,7 @@
 | 日期 | 标题 | 来源 | 标签 | 摘要 |
 |------|------|------|------|------|
 | 2026-11-11 | [前端岗位一年减少51%，FDE暴涨4.6倍：AI没有赶走工程师，却正在拆掉岗位边界](2026-11-11-ai-job-market-fde.md) | CSDN/微信公众号 | `AI` `职业` `商业` | Lenny科技就业报告：PM开放岗近四年最高、工程增长停滞但FDE涨4.6倍/前端-51%，AI在重新给能力定价，离业务越近责任越完整越抗稀释。 |
+| 2026-11-17 | [Anthropic：Demystifying Evals for AI Agents](2026-11-17-anthropic-agent-evals.md) | anthropic.com | `AI` `技术` `方法论` | 官方 Agent 评测方法论：三类 grader、capability vs regression、pass@k vs pass^k、零到一 8 步路线图（20-50 个真实失败任务起步、评产出不评路径、0% 多半是坏 task）。 |
 | 2026-11-17 | [美团 Agent 评测白皮书：商家 AI 助手的评测与优化闭环](2026-11-17-meituan-agent-eval-practice.md) | mp.weixin.qq.com | `AI` `技术` `方法论` | 业务 Benchmark 双路径（SOP 拆解+BadCase 补齐）；评测器与 Agent 是两个迭代闭环；减少模型自由判断的确定性约束；Pass^k<Pass@k：瓶颈在稳定性。 |
 | 2026-11-16 | [Personal Agent 产品五条原则（Next Token 第十期金句）](2026-11-16-personal-agent-five-principles.md) | mp.weixin.qq.com | `AI` `AI产品` `产品` | 信任飞轮：每无打扰解决一件小事就多一分权限和上下文；终极形态=一个Chat+动态HTML；移动互联网围墙成包衱；AI时代人月神话。 |
 | 2026-11-14 | [46K Star · Hindsight：会学习的 Agent 记忆系统](2026-11-14-hindsight-agent-memory.md) | mp.weixin.qq.com | `AI` `工具` | retain/recall/reflect 三原语闭环，钩子全自动接入 Claude Code/Cursor，从事实综合出自动刷新的心智模型。 |
