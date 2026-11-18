@@ -5,6 +5,7 @@
 | 日期 | 标题 | 来源 | 标签 | 摘要 |
 |------|------|------|------|------|
 | 2026-11-11 | [前端岗位一年减少51%，FDE暴涨4.6倍：AI没有赶走工程师，却正在拆掉岗位边界](2026-11-11-ai-job-market-fde.md) | CSDN/微信公众号 | `AI` `职业` `商业` | Lenny科技就业报告：PM开放岗近四年最高、工程增长停滞但FDE涨4.6倍/前端-51%，AI在重新给能力定价，离业务越近责任越完整越抗稀释。 |
+| 2026-11-18 | [Anthropic 官方架构指南：7×24 常驻 Agent（夕小瑶解读）](2026-11-18-anthropic-always-on-agents.md) | mp.weixin.qq.com | `AI` `技术` | 五部件工程视角：收件箱三结构、一收件箱一 worker、凭据代理注入、延迟工具调用状态机；与花叔版同源互补。 |
 | 2026-11-18 | [LobeHub 一线复盘：实践 Super-Agent 半年](2026-11-18-lobehub-super-agent.md) | mp.weixin.qq.com | `AI` `技术` `AI产品` | Task 工单=独立于 Session 的身份；便宜模型当秘书在噪音中提取任务；唤醒是策略工程不是愿望；沉默是 feature；悬而未决：团队场景资源与产出归属。 |
 | 2026-11-18 | [潜伏小红书 48h：AI 时代技术人才聊什么](2026-11-18-xiaohongshu-ai-campus.md) | mp.weixin.qq.com | `AI` `职业` | 招聘宣传稿但有几个硬信号：全员月发 Token 额度管够、非技术岗考 AI Demo 笔试、PE 产品工程师专项、岗位改名 AI应用与开发、Data Agent 内部 skill 竞赛机制。 |
 | 2026-11-18 | [OpenAI：Evaluation Best Practices](2026-11-18-openai-eval-best-practices.md) | developers.openai.com | `AI` `技术` `方法论` | 按架构找非确定性：单轮→工作流→单 Agent（工具选择+参数）→多 Agent（handoff）；三类评测器；LLM 擅判别不擅生成，评测用 pairwise/分类/打分。 |
