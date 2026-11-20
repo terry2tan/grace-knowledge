@@ -5,6 +5,7 @@
 | 日期 | 标题 | 来源 | 标签 | 摘要 |
 |------|------|------|------|------|
 | 2026-11-11 | [前端岗位一年减少51%，FDE暴涨4.6倍：AI没有赶走工程师，却正在拆掉岗位边界](2026-11-11-ai-job-market-fde.md) | CSDN/微信公众号 | `AI` `职业` `商业` | Lenny科技就业报告：PM开放岗近四年最高、工程增长停滞但FDE涨4.6倍/前端-51%，AI在重新给能力定价，离业务越近责任越完整越抗稀释。 |
+| 2026-11-21 | [付鹏：美股期权微观结构与流动性踩踏监控仪表盘](2026-11-21-fupeng-options-dashboard.md) | x.com | `投资` `工具` `AI` | AI 生成的真实可交互投研面板：情景滑杆联动、波动率曲面、dealer Gamma 暴露、自动复盘 checklist；数据源未公开。 |
 | 2026-11-20 | [Tabbit 万字复盘：Browser Use 的苦涩教训](2026-11-20-tabbit-browser-use-bitter-lesson.md) | mp.weixin.qq.com | `AI` `方法论` `技术` | GUI 路线一年半没临界点；Codex 用 for 循环干完 200 条配置打醒；四层接口抽象 Coding-First；Playwright 是模型母语；小模型只胜任局部；WebMCP 是下一支线。 |
 | 2026-11-20 | [Agnes Harness：双系统决策+双层自进化](2026-11-20-agnes-harness.md) | mp.weixin.qq.com | `AI` `技术` `工具` | 9B Sys1 接管高频判断；TTT 学完即清空；RSI 经验落版本化 Playbook；插件+MHS 接硬件；四本账里「复制」最关键。 |
 | 2026-11-20 | [姚顺雨清华姚班闭门对谈：10 个底层认知](2026-11-20-yao-shunyu-tsinghua-talk.md) | mp.weixin.qq.com | `AI` `方法论` `技术` | 技术平滑但商业靠交互跳变；刷榜 Eval 变敌人；Policy Gradient 最 Scalable；3-6 月独占窗口；Bet with compute；护城河是对数据的 Taste；Low ego/Co-design/Solid。 |
