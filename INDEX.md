@@ -4,6 +4,7 @@
 
 | 日期 | 标题 | 来源 | 标签 | 摘要 |
 |------|------|------|------|------|
+| 2026-11-22 | [Pi Agent Loop 交互式架构可视化教程 · 第1课「为什么 Pi 敢做反框架？」](2026-11-22-pi-visualizer-why-pi.md) | pi-visualizer（SPA） | `AI` `技术` `AI产品` | 源码级拆解 Pi Coding Agent：4工具+<1k Token基线、刻意不内置Plan/Sub-agent、YOLO+容器边界；小内核可编程边缘，附6章14课结构。 |
 | 2026-11-11 | [前端岗位一年减少51%，FDE暴涨4.6倍：AI没有赶走工程师，却正在拆掉岗位边界](2026-11-11-ai-job-market-fde.md) | CSDN/微信公众号 | `AI` `职业` `商业` | Lenny科技就业报告：PM开放岗近四年最高、工程增长停滞但FDE涨4.6倍/前端-51%，AI在重新给能力定价，离业务越近责任越完整越抗稀释。 |
 | 2026-11-21 | [付鹏：美股期权微观结构与流动性踩踏监控仪表盘](2026-11-21-fupeng-options-dashboard.md) | x.com | `投资` `工具` `AI` | AI 生成的真实可交互投研面板：情景滑杆联动、波动率曲面、dealer Gamma 暴露、自动复盘 checklist；数据源未公开。 |
 | 2026-11-20 | [Tabbit 万字复盘：Browser Use 的苦涩教训](2026-11-20-tabbit-browser-use-bitter-lesson.md) | mp.weixin.qq.com | `AI` `方法论` `技术` | GUI 路线一年半没临界点；Codex 用 for 循环干完 200 条配置打醒；四层接口抽象 Coding-First；Playwright 是模型母语；小模型只胜任局部；WebMCP 是下一支线。 |
