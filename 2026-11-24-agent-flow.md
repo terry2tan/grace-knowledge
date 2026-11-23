@@ -120,3 +120,4 @@ Claude Code **没有提供「正在等你授权」的 hook**。这类状态通�
 - VS Code Marketplace：https://marketplace.visualstudio.com/items?itemName=simon-p.agent-flow
 - 配套看板 Ravenry：https://patoles.github.io/ravenry/
 - 作者产品 Antics：https://antics.gg
+- 对比参照（本库，事后报告式）：`2026-11-24-agentcanvas.md`

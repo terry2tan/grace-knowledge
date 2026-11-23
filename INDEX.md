@@ -4,6 +4,7 @@
 
 | 日期 | 标题 | 来源 | 标签 | 摘要 |
 |------|------|------|------|------|
+| 2026-11-24 | [agentcanvas：把 Logfire 的 Agent 追踪渲染成单文件 HTML 流程报告](2026-11-24-agentcanvas.md) | github.com | `AI` `工具` `方法论` | OTel GenAI span 树→自包含 HTML；嵌套子 Agent 递归成框；guided tour 做投屏讲解；成本未知就标未知。与 Agent Flow 互补（事后 vs 实时）。 |
 | 2026-11-24 | [Agent Flow：把 Claude Code / Codex 的 Agent 编排变成实时节点图](2026-11-24-agent-flow.md) | github.com | `AI` `工具` `AI产品` | 1.8k star；hooks→本地HTTP + transcript 轮询双通道；12 类型事件协议；「沉默即阻塞」推断授权等待；JSONL 可直接接任何 runtime。 |
 | 2026-11-22 | [Pi Agent Loop 交互式架构可视化教程 · 第1课「为什么 Pi 敢做反框架？」](2026-11-22-pi-visualizer-why-pi.md) | pi-visualizer（SPA） | `AI` `技术` `AI产品` | 源码级拆解 Pi Coding Agent：4工具+<1k Token基线、刻意不内置Plan/Sub-agent、YOLO+容器边界；小内核可编程边缘，附6章14课结构。 |
 | 2026-11-11 | [前端岗位一年减少51%，FDE暴涨4.6倍：AI没有赶走工程师，却正在拆掉岗位边界](2026-11-11-ai-job-market-fde.md) | CSDN/微信公众号 | `AI` `职业` `商业` | Lenny科技就业报告：PM开放岗近四年最高、工程增长停滞但FDE涨4.6倍/前端-51%，AI在重新给能力定价，离业务越近责任越完整越抗稀释。 |
