@@ -6,6 +6,7 @@
 |------|------|------|------|------|
 | 2026-11-22 | [Pi Agent Loop 交互式架构可视化教程 · 第1课「为什么 Pi 敢做反框架？」](2026-11-22-pi-visualizer-why-pi.md) | pi-visualizer（SPA） | `AI` `技术` `AI产品` | 源码级拆解 Pi Coding Agent：4工具+<1k Token基线、刻意不内置Plan/Sub-agent、YOLO+容器边界；小内核可编程边缘，附6章14课结构。 |
 | 2026-11-11 | [前端岗位一年减少51%，FDE暴涨4.6倍：AI没有赶走工程师，却正在拆掉岗位边界](2026-11-11-ai-job-market-fde.md) | CSDN/微信公众号 | `AI` `职业` `商业` | Lenny科技就业报告：PM开放岗近四年最高、工程增长停滞但FDE涨4.6倍/前端-51%，AI在重新给能力定价，离业务越近责任越完整越抗稀释。 |
+| 2026-11-23 | [learn.shareai.run：网站版 20 课（含 CC 源码深挖）](2026-11-23-learn-shareai-run-site-20-lessons.md) | learn.shareai.run | `AI` `技术` `工具` | 同一项目的 v2 课程：20 课；新增 System Prompt/Error Recovery/Team Protocols/Autonomous/Worktree；每课附 CC 真源码考证。 |
 | 2026-11-23 | [learn-claude-code：手写 Claude Code 式 Harness（17 课）](2026-11-23-learn-claude-code-harness.md) | github.com | `AI` `技术` `工具` | 80.8k star；Agency 来自模型、Harness 才是工程；s01-s17 每课一个可运行单文件；能力成熟度清单。 |
 | 2026-11-23 | [Agent 评测半年复盘：评测是产品工程](2026-11-23-agent-eval-product-engineering.md) | mp.weixin.qq.com | `AI` `方法论` `技术` | 模型只定义问题、Agent 还要定解法；压缩即智能 vs Steer 即作弊；先定指标再出题；可观测性最关键；抄 Harness 无用。 |
 | 2026-11-23 | [SkillHone：微信 Skills 持续进化框架](2026-11-23-skillhone-skill-evolution.md) | mp.weixin.qq.com | `AI` `技术` `方法论` | 把 Skill 仓库当修改对象；持久化决策历史（消融掉 13.4/10.9pp）；优化与评估权限分离；从真实故障而非 Benchmark 启动。 |

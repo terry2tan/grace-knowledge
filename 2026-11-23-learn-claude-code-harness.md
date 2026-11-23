@@ -11,7 +11,9 @@ tags: [AI, 技术, 工具]
 
 **80.8k stars / 12.9k forks / MIT / Python** 的「Harness 工程」教学仓库（Trendshift 上榜）。一句话主旨：**"Bash is all you need" —— 一个工具 + 一个循环 = 一个 Agent**。它把 Claude Code 拆成 17 个递进课程（s01→s17），每课一个**可独立运行的单文件 Python 程序**（从 153 行到 3346 行，合计约 13000 行），每加一课就加一个 harness 机制，且每课配一句格言和一张架构 SVG（中/英/日三语 README）。
 
-立论很硬：**Agency 来自模型训练，不来自外部代码编排。** 所以「开发 Agent」只可能是两件事之一——①训练模型（DeepMind/OpenAI/Anthropic 在做）；②构建 Harness（我们大多数人在做）。仓库教的是后者：`Harness = Tools + Knowledge + Observation + Action Interfaces + Permissions`。作者对「拖拽式工作流 / 无代码 Agent 平台 / 提示词链编排库」的批评相当刻薄：那是「鲁布·戈德堡机械」「喷了 LLM 漆的 GOFAI」——「你不可能通过工程手段编码出 agency」。
+立论很硬：**Agency 来自模型训练，不来自外部代码编排。**
+
+> 配套的网站版课程（20 课，编号与内容均不同，每课另附 Claude Code 真实源码深挖）见 `2026-11-23-learn-shareai-run-site-20-lessons.md`。 所以「开发 Agent」只可能是两件事之一——①训练模型（DeepMind/OpenAI/Anthropic 在做）；②构建 Harness（我们大多数人在做）。仓库教的是后者：`Harness = Tools + Knowledge + Observation + Action Interfaces + Permissions`。作者对「拖拽式工作流 / 无代码 Agent 平台 / 提示词链编排库」的批评相当刻薄：那是「鲁布·戈德堡机械」「喷了 LLM 漆的 GOFAI」——「你不可能通过工程手段编码出 agency」。
 
 对 Claude Code 的定义也很干净：
 ```
@@ -63,3 +65,4 @@ Claude Code = Agent Loop + 工具(bash/read/write/edit/glob/grep/browser…)
 
 - 仓库：https://github.com/shareAI-lab/learn-claude-code
 - 中文 README：https://github.com/shareAI-lab/learn-claude-code/blob/main/README-zh.md
+- **网站版（20 课，每课附 CC 源码深挖）：https://learn.shareai.run/zh/ —— 见 `2026-11-23-learn-shareai-run-site-20-lessons.md`**
