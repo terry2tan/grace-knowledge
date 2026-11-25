@@ -4,6 +4,7 @@
 
 | 日期 | 标题 | 来源 | 标签 | 摘要 |
 |------|------|------|------|------|
+| 2026-11-25 | [Personal Agent 的北极星指标：量「托管了多少件事」，不量时长和日活](2026-11-25-personal-agent-north-star-metric.md) | 微信公众号/赛博禅心 | `AI产品` `产品` `商业` | 时长/DAU 方向反了（Agent 越好用户开得越少）；北极星=托管量+完成率；衍生托管率/完成率/按事算留存；接管间隔是质量指标。 |
 | 2026-11-25 | [四款 AI 个人助手的四种「委托方式」：一把尺子量小豆/Muse/Instinct/Grok Bot](2026-11-25-four-personal-assistants-delegation.md) | 微信公众号/AI Engineer | `AI产品` `AI` `产品` | 委托三维（怎么交代/推进到哪/谁接手）+ 三指标（首次成功率/四周再委托率/接手成本）；推荐 vs 委托的分界是「可检验」。 |
 | 2026-11-25 | [Google CRSI / Self-Improvement Memory：换模型、换任务后带着「为什么改」继续进化](2026-11-25-crsi-self-improvement-memory.md) | 微信公众号/机器之心 | `AI` `技术` `方法论` | arXiv 2611.18856；SIM 记理由/预测/观测/背景，按问题分组；四臂消融；编码 10 组配对 9 胜、+2.36 分 p=0.003。 |
 | 2026-11-25 | [gBench：DeepMind 开源的一行命令评测工具，第三层直接用 OpenClaw 的 QA 套件](2026-11-25-gbench-deepmind-eval.md) | 微信公众号/ChallengeHub | `AI` `技术` `方法论` | 86 套学术基+16 条 Golden Set（聊天模板双胞胎对照）+60 个 OpenClaw QA 场景；relay 白名单密钥隔离；宁可 withheld 不给 0。 |
