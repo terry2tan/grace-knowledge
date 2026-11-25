@@ -4,6 +4,7 @@
 
 | 日期 | 标题 | 来源 | 标签 | 摘要 |
 |------|------|------|------|------|
+| 2026-11-25 | [Google CRSI / Self-Improvement Memory：换模型、换任务后带着「为什么改」继续进化](2026-11-25-crsi-self-improvement-memory.md) | 微信公众号/机器之心 | `AI` `技术` `方法论` | arXiv 2611.18856；SIM 记理由/预测/观测/背景，按问题分组；四臂消融；编码 10 组配对 9 胜、+2.36 分 p=0.003。 |
 | 2026-11-25 | [gBench：DeepMind 开源的一行命令评测工具，第三层直接用 OpenClaw 的 QA 套件](2026-11-25-gbench-deepmind-eval.md) | 微信公众号/ChallengeHub | `AI` `技术` `方法论` | 86 套学术基+16 条 Golden Set（聊天模板双胞胎对照）+60 个 OpenClaw QA 场景；relay 白名单密钥隔离；宁可 withheld 不给 0。 |
 | 2026-11-24 | [agentcanvas：把 Logfire 的 Agent 追踪渲染成单文件 HTML 流程报告](2026-11-24-agentcanvas.md) | github.com | `AI` `工具` `方法论` | OTel GenAI span 树→自包含 HTML；嵌套子 Agent 递归成框；guided tour 做投屏讲解；成本未知就标未知。与 Agent Flow 互补（事后 vs 实时）。 |
 | 2026-11-24 | [Agent Flow：把 Claude Code / Codex 的 Agent 编排变成实时节点图](2026-11-24-agent-flow.md) | github.com | `AI` `工具` `AI产品` | 1.8k star；hooks→本地HTTP + transcript 轮询双通道；12 类型事件协议；「沉默即阻塞」推断授权等待；JSONL 可直接接任何 runtime。 |
