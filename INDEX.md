@@ -4,6 +4,7 @@
 
 | 日期 | 标题 | 来源 | 标签 | 摘要 |
 |------|------|------|------|------|
+| 2026-11-26 | [Grok Bot 的烧钱漏洞：把「决定」从贵模型里拆出去（Harness + Jev 决策层 + Swarm）](2026-11-26-grok-bot-harness-decision-layer.md) | x.com/@irongiantXBT | `AI` `技术` `方法论` | 五类该搬走的决策（读哪些文件/用哪个模型/能不能跑/完成了吗/留不留）；FORBIDDEN 填不出=角色没定义；完成判定要锚外部测试输出。已核 Jev 定价与文档。 |
 | 2026-11-25 | [Manus 张涛：AI 时代如何做产品（演讲逐字稿）](2026-11-25-manus-zhangtao-ai-product-transcript.md) | 微信公众号/AI人才论 | `AI产品` `方法论` `AI` | 为六个月后的模型能力做产品；停浏览器「不做 AI+旧体验」；3.7 当晚 harness 零改动解掉 20-30%；邀请码真相是 TPM（单 DAU 消耗差 200-1000 倍）；企业 Agent 只服务老板一个 DAU。 |
 | 2026-11-25 | [Personal Agent 的北极星指标：量「托管了多少件事」，不量时长和日活](2026-11-25-personal-agent-north-star-metric.md) | 微信公众号/赛博禅心 | `AI产品` `产品` `商业` | 时长/DAU 方向反了（Agent 越好用户开得越少）；北极星=托管量+完成率；衍生托管率/完成率/按事算留存；接管间隔是质量指标。 |
 | 2026-11-25 | [四款 AI 个人助手的四种「委托方式」：一把尺子量小豆/Muse/Instinct/Grok Bot](2026-11-25-four-personal-assistants-delegation.md) | 微信公众号/AI Engineer | `AI产品` `AI` `产品` | 委托三维（怎么交代/推进到哪/谁接手）+ 三指标（首次成功率/四周再委托率/接手成本）；推荐 vs 委托的分界是「可检验」。 |
